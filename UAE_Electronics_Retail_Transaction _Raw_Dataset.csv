@@ -1,0 +1,1001 @@
+transaction_id,transaction_date,customer_id,Purchase_id,Product_Name,product_category,Sales_Channel,purchase_price,sale_price,discount_percentage,quantity_sold,Inventory_Status,region,Payment_Method
+1,1/23/2026,1001,100001,UltimateGadget Pro,electronics,Oniline,949.47,388.04,2.77,371,Out of Stock,Abu Dhabi,Card
+2,2/28/2025,1002,100002,InnoTech 3000,clothing,Oniline,918.72,1308.23,45.74,948,In Stock,Sharjah,Card
+3,02/03/2026,1003,100003,PowerTech Max,appliances,Retail,284.14,514.84,10.06,863,Out of Stock,Ajman,Online
+4,08/04/2025,1004,100004,UltimateGadget Pro,home goods,Retail,905.3,921.84,35.69,389,Out of Stock,Sharjah,Cash
+5,1/25/2026,1005,100005,FutureTech 10000,home goods,,304.26,515.34,13.57,941,Low Stock,Abu Dhabi,Online
+6,11/07/2025,1006,100006,GigaGadget 9000,electronics,,940.56,909.78,40.8,999,In Stock,Ajman,Cash
+7,4/22/2025,1007,100007,UltimateGadget Pro,accessories,Oniline,566.58,965.32,33.92,398,Low Stock,Abu Dhabi,Card
+8,11/10/2025,1008,100008,SmartTech Elite,clothing,Retail,123.62,575.83,40.66,2,In Stock,Ajman,Card
+9,06/02/2025,1009,100009,,home goods,Retail,411.06,29.61,35.5,830,In Stock,Sharjah,Online
+10,7/19/2025,1010,100010,PowerTech Max,appliances,Oniline,493.02,395.87,32.28,903,Low Stock,Sharjah,Online
+11,5/25/2025,1011,100011,TechSavvy 5000,appliances,Oniline,231.15,1295.17,47.02,308,Out of Stock,Sharjah,Card
+12,8/29/2025,1012,100012,MegaGizmo X,accessories,Oniline,199.42,136.15,11.23,813,Out of Stock,Abu Dhabi,Card
+13,03/05/2025,1013,100013,GigaGadget 9000,appliances,Retail,73.18,1103.3,13.2,503,Out of Stock,Sharjah,Online
+14,7/24/2025,1014,100014,FutureTech 10000,clothing,Retail,34,953.39,42.33,642,Out of Stock,Ajman,Online
+15,10/20/2025,1015,100015,GigaGadget 9000,,Retail,322.59,715.39,11.34,967,In Stock,Dubai,Card
+16,1/22/2026,1016,100016,FutureTech 10000,accessories,Retail,768.25,1119.64,34.59,673,Low Stock,Ajman,Cash
+17,03/01/2026,1017,100017,GigaGadget 9000,clothing,,477.72,1462.54,0.49,264,Out of Stock,Ajman,Online
+18,12/10/2025,1018,100018,InnoTech 3000,electronics,Oniline,992.61,744.82,,211,Out of Stock,Ajman,Cash
+19,6/18/2025,1019,100019,SuperWidget 2000,clothing,Retail,838.36,359.05,3.54,389,In Stock,Abu Dhabi,Card
+20,09/10/2025,1020,100020,,appliances,Oniline,892.62,723.7,11.95,775,Out of Stock,Ajman,Card
+21,03/04/2025,1021,100021,MegaGizmo X,electronics,Oniline,694.14,1408.99,2.47,661,Low Stock,Sharjah,Online
+22,10/26/2025,1022,100022,GigaGadget 9000,clothing,Oniline,261.09,549.73,27.58,376,Out of Stock,Dubai,Card
+23,10/21/2025,1023,100023,GigaGadget 9000,clothing,Retail,218.67,166.1,47.59,256,In Stock,Sharjah,Cash
+24,02/09/2026,1024,100024,EcoFriendly Tech,clothing,Oniline,868.75,351.08,13.81,151,Low Stock,Dubai,Online
+25,9/29/2025,1025,100025,FutureTech 10000,accessories,Oniline,577.9,399.98,31.17,998,Low Stock,Sharjah,Online
+26,1/31/2025,1026,100026,EcoFriendly Tech,home goods,Retail,731.18,842.26,18.07,931,Low Stock,Ajman,Cash
+27,3/24/2026,1027,100027,SmartTech Elite,appliances,Retail,476.47,924.43,11.6,868,Out of Stock,Ajman,Card
+28,1/22/2025,1028,100028,TechSavvy 5000,,Retail,491.06,339.35,18.41,550,,Abu Dhabi,Online
+29,12/05/2025,1029,100029,UltimateGadget Pro,appliances,Oniline,139.26,280.73,23.95,988,Out of Stock,Sharjah,Card
+30,06/05/2025,1030,100030,UltimateGadget Pro,,Oniline,19.95,1179.22,46.88,16,In Stock,Ajman,Cash
+31,4/18/2025,1031,100031,SuperWidget 2000,home goods,Oniline,131.25,1459.91,2.62,643,In Stock,Abu Dhabi,Card
+32,6/30/2025,1032,100032,EcoFriendly Tech,accessories,Oniline,17.62,1482.87,22.77,166,Out of Stock,,Cash
+33,06/02/2025,1033,100033,,electronics,Retail,944.37,640.67,23.1,437,In Stock,,Online
+34,2/26/2026,1034,100034,UltimateGadget Pro,appliances,Retail,183.15,234.14,34.27,637,Low Stock,Ajman,Online
+35,9/30/2025,1035,100035,TechSavvy 5000,home goods,Retail,215.08,1303.16,38.23,657,Out of Stock,Sharjah,Card
+36,05/11/2025,1036,100036,EcoFriendly Tech,home goods,Oniline,353.57,1395.62,0.07,921,Out of Stock,Dubai,Cash
+37,03/10/2025,1037,100037,SmartTech Elite,clothing,Retail,271.62,316.93,19.76,91,Low Stock,Sharjah,Online
+38,9/24/2025,1038,100038,PowerTech Max,accessories,Retail,357.1,687.44,45.69,537,Low Stock,Abu Dhabi,Cash
+39,2/15/2025,1039,100039,GigaGadget 9000,accessories,Retail,128.91,291.29,26.96,486,In Stock,Abu Dhabi,Cash
+40,1/16/2025,1040,100040,SuperWidget 2000,clothing,Retail,15.46,754.57,25.8,138,Out of Stock,Dubai,Online
+41,02/03/2025,1041,100041,PowerTech Max,accessories,Retail,391.04,1146.65,47.87,573,Low Stock,Sharjah,Card
+42,02/02/2025,1042,100042,,clothing,Retail,93.12,1056.6,46.38,129,In Stock,Dubai,Online
+43,11/05/2025,1043,100043,MegaGizmo X,,Oniline,51.12,1285.47,30.5,102,In Stock,Ajman,Cash
+44,08/04/2025,1044,100044,TechSavvy 5000,home goods,Retail,649.32,1055.92,43.86,77,In Stock,Dubai,Cash
+45,3/28/2025,1045,100045,GigaGadget 9000,accessories,Oniline,415.01,398.51,15.02,492,Out of Stock,Abu Dhabi,Cash
+46,6/23/2025,1046,100046,TechSavvy 5000,accessories,Retail,937.07,900.52,42.48,362,Low Stock,Abu Dhabi,Online
+47,06/08/2025,1047,100047,FutureTech 10000,accessories,Oniline,180.06,1121.75,22.1,410,Out of Stock,Ajman,Cash
+48,12/30/2025,1048,100048,UltimateGadget Pro,home goods,Retail,703.91,1146.08,49.41,499,Low Stock,Sharjah,Cash
+49,02/10/2026,1049,100049,MegaGizmo X,clothing,,203.91,423.52,2.6,219,In Stock,Sharjah,Card
+50,3/22/2026,1050,100050,TechSavvy 5000,electronics,Retail,788.09,55.96,12.78,38,,Ajman,Card
+51,1/16/2026,1051,100051,TechSavvy 5000,appliances,Retail,458.48,1489.23,7.75,294,Low Stock,Abu Dhabi,Card
+52,11/27/2025,1052,100052,GigaGadget 9000,clothing,Retail,790.6,733.77,6.58,519,In Stock,Sharjah,Cash
+53,2/25/2026,1053,100053,InnoTech 3000,electronics,Retail,525.27,576.48,29.18,977,Low Stock,Sharjah,Card
+54,12/15/2025,1054,100054,InnoTech 3000,accessories,Retail,345.5,402.44,24.65,524,In Stock,Abu Dhabi,Cash
+55,08/08/2025,1055,100055,MegaGizmo X,accessories,Oniline,907.4,1480.1,,854,In Stock,Ajman,Card
+56,04/01/2025,1056,100056,SmartTech Elite,appliances,Retail,291.04,487.1,1.9,52,Low Stock,,Online
+57,04/04/2025,1057,100057,,appliances,Oniline,512.91,972.23,49.11,218,Low Stock,Ajman,Online
+58,03/11/2025,1058,100058,FutureTech 10000,home goods,Oniline,124.22,982.54,15.93,883,In Stock,Dubai,Online
+59,1/27/2025,1059,100059,FutureTech 10000,clothing,Retail,497.98,755.83,26.46,17,Out of Stock,Dubai,Online
+60,12/26/2025,1060,100060,SuperWidget 2000,clothing,Oniline,450.94,671.31,21,751,In Stock,Sharjah,Cash
+61,9/24/2025,1061,100061,SuperWidget 2000,,Retail,348.7,974.22,10.52,772,Out of Stock,Sharjah,Card
+62,5/27/2025,1062,100062,PowerTech Max,,Oniline,372.31,641.46,28.48,796,Out of Stock,Sharjah,
+63,10/11/2025,1063,100063,SmartTech Elite,accessories,Retail,803.16,1185.08,5.57,30,Low Stock,Ajman,Card
+64,1/24/2025,1064,100064,PowerTech Max,appliances,Oniline,803.19,1360.67,31.62,611,Low Stock,,
+65,2/21/2025,1065,100065,TechSavvy 5000,accessories,Retail,973.36,321.11,14.57,826,Out of Stock,Sharjah,Card
+66,2/19/2026,1066,100066,MegaGizmo X,accessories,Oniline,231.63,1078.35,48.17,8,Out of Stock,Abu Dhabi,Online
+67,1/16/2025,1067,100067,,,Oniline,372.56,1191.83,30.09,950,Low Stock,Dubai,Card
+68,04/06/2025,1068,100068,PowerTech Max,accessories,Retail,693.98,694.74,,112,Out of Stock,Ajman,Card
+69,06/03/2025,1069,100069,UltimateGadget Pro,electronics,Retail,337.77,745.31,4.7,280,In Stock,Sharjah,Card
+70,10/08/2025,1070,100070,TechSavvy 5000,electronics,Retail,271.51,1352.68,,600,Low Stock,Ajman,Card
+71,8/19/2025,1071,100071,TechSavvy 5000,home goods,Retail,244.57,1055.96,22.47,516,Low Stock,Dubai,
+72,5/23/2025,1072,100072,InnoTech 3000,accessories,Oniline,847.92,117,36.38,901,In Stock,Abu Dhabi,Cash
+73,03/06/2025,1073,100073,MegaGizmo X,home goods,Retail,351.58,871.58,16.19,366,In Stock,Abu Dhabi,Online
+74,02/06/2026,1074,100074,UltimateGadget Pro,home goods,Oniline,678.07,436.01,29.04,434,In Stock,Sharjah,Cash
+75,1/13/2026,1075,100075,UltimateGadget Pro,appliances,Oniline,605.58,1414.35,19.26,286,Out of Stock,Ajman,Online
+76,1/22/2026,1076,100076,TechSavvy 5000,home goods,Retail,587.7,631.69,26.59,631,Low Stock,Ajman,Cash
+77,05/03/2025,1077,100077,PowerTech Max,clothing,Oniline,81.57,1145.24,17.48,925,Low Stock,Sharjah,Card
+78,2/25/2025,1078,100078,UltimateGadget Pro,,Oniline,221.12,37.34,41.06,998,In Stock,Sharjah,Cash
+79,2/23/2026,1079,100079,InnoTech 3000,appliances,Oniline,485.42,300.15,6.81,264,Out of Stock,Dubai,Card
+80,08/03/2025,1080,100080,SuperWidget 2000,electronics,Retail,651.47,626.97,24.1,617,In Stock,Sharjah,Card
+81,1/27/2026,1081,100081,UltimateGadget Pro,home goods,Oniline,351.19,371.29,33.4,509,Out of Stock,Ajman,Cash
+82,10/21/2025,1082,100082,PowerTech Max,appliances,Oniline,320.28,344.95,3.62,91,Low Stock,Abu Dhabi,Online
+83,2/19/2025,1083,100083,EcoFriendly Tech,electronics,Oniline,136.64,656.67,20.22,196,Low Stock,Sharjah,Cash
+84,09/02/2025,1084,100084,EcoFriendly Tech,home goods,Oniline,726.8,322.6,43.33,111,In Stock,Sharjah,Card
+85,2/27/2025,1085,100085,MegaGizmo X,electronics,Oniline,156.52,772.13,34.72,396,Low Stock,Sharjah,Card
+86,05/11/2025,1086,100086,UltimateGadget Pro,clothing,Retail,148.86,399.65,13.17,263,In Stock,Sharjah,Online
+87,07/10/2025,1087,100087,UltimateGadget Pro,,Retail,245.09,682.51,,864,In Stock,,Card
+88,1/17/2025,1088,100088,UltimateGadget Pro,clothing,Retail,766.95,312.55,14.37,114,In Stock,Dubai,Card
+89,05/08/2025,1089,100089,FutureTech 10000,accessories,Oniline,691.05,316.29,33.73,149,In Stock,Ajman,Cash
+90,12/30/2025,1090,100090,FutureTech 10000,home goods,Oniline,370.32,469.27,40.17,798,Out of Stock,Dubai,Online
+91,3/29/2026,1091,100091,MegaGizmo X,electronics,Oniline,617.77,603.08,34.77,770,In Stock,Sharjah,Online
+92,4/19/2025,1092,100092,SmartTech Elite,accessories,Retail,874.01,32.54,17.83,758,Low Stock,,Online
+93,5/25/2025,1093,100093,InnoTech 3000,electronics,Oniline,439.45,1005.4,,724,In Stock,Sharjah,Cash
+94,3/25/2026,1094,100094,UltimateGadget Pro,home goods,Retail,444.16,604.63,0.24,172,In Stock,Dubai,
+95,12/03/2025,1095,100095,MegaGizmo X,accessories,Retail,996.3,893.35,32.86,588,Out of Stock,Sharjah,Cash
+96,11/30/2025,1096,100096,SmartTech Elite,accessories,Retail,461.93,377.04,8.3,186,Out of Stock,Dubai,Cash
+97,7/17/2025,1097,100097,SuperWidget 2000,appliances,Oniline,71.56,60.23,8.96,733,In Stock,,Card
+98,10/07/2025,1098,100098,FutureTech 10000,appliances,Oniline,60.57,736.17,23.81,61,Low Stock,Abu Dhabi,
+99,03/01/2025,1099,100099,InnoTech 3000,clothing,Retail,974.35,854.56,16.91,727,Out of Stock,Ajman,Online
+100,9/25/2025,1100,100100,FutureTech 10000,clothing,Oniline,100.33,828.58,14.52,270,Out of Stock,Abu Dhabi,Card
+101,01/02/2026,1101,100101,FutureTech 10000,clothing,Retail,580.39,583.47,34.72,914,Low Stock,Dubai,Online
+102,12/19/2025,1102,100102,SmartTech Elite,electronics,Retail,26.37,1484.28,18.85,584,In Stock,,Cash
+103,9/23/2025,1103,100103,SuperWidget 2000,clothing,Retail,467.08,853.26,35.59,562,In Stock,Abu Dhabi,Online
+104,7/16/2025,1104,100104,UltimateGadget Pro,appliances,Oniline,906.58,133.55,44.73,363,In Stock,Sharjah,Online
+105,10/08/2025,1105,100105,PowerTech Max,appliances,Retail,875.73,259.97,31.99,463,In Stock,Ajman,Cash
+106,10/24/2025,1106,100106,InnoTech 3000,appliances,Oniline,943.18,1350.64,11.55,463,Out of Stock,,Cash
+107,12/11/2025,1107,100107,SmartTech Elite,clothing,Retail,754.25,479.18,10.8,710,Out of Stock,Dubai,Online
+108,4/21/2025,1108,100108,UltimateGadget Pro,clothing,Oniline,221.81,248.75,35.72,378,Out of Stock,Sharjah,Card
+109,9/26/2025,1109,100109,InnoTech 3000,appliances,Retail,116.25,93.81,39.6,175,Low Stock,Sharjah,Card
+110,5/29/2025,1110,100110,MegaGizmo X,home goods,Retail,325.86,1232.85,43.09,252,Low Stock,Ajman,Cash
+111,3/27/2025,1111,100111,PowerTech Max,appliances,Oniline,886.72,1457.85,40.58,677,In Stock,Abu Dhabi,Card
+112,9/25/2025,1112,100112,GigaGadget 9000,electronics,Retail,246.25,673.48,,513,Low Stock,Sharjah,Cash
+113,3/14/2025,1113,100113,EcoFriendly Tech,home goods,Oniline,417.51,974.55,32.9,876,In Stock,Ajman,Card
+114,02/11/2025,1114,100114,MegaGizmo X,clothing,Retail,856.06,1243.44,35.3,471,Low Stock,Ajman,Online
+115,6/28/2025,1115,100115,UltimateGadget Pro,electronics,,665.9,1224.02,5.27,785,Out of Stock,Abu Dhabi,Cash
+116,07/09/2025,1116,100116,GigaGadget 9000,electronics,Oniline,340.12,702.22,3.63,966,Low Stock,Dubai,Online
+117,3/16/2026,1117,100117,FutureTech 10000,,Retail,256.91,960.39,,477,Out of Stock,Dubai,Online
+118,2/20/2025,1118,100118,EcoFriendly Tech,home goods,Oniline,891.12,899.25,10.58,610,In Stock,Abu Dhabi,Online
+119,7/24/2025,1119,100119,TechSavvy 5000,accessories,Oniline,88.33,367.56,44.42,273,Low Stock,Dubai,Cash
+120,01/04/2026,1120,100120,SmartTech Elite,appliances,Oniline,928.96,1173.57,5.35,227,Out of Stock,Sharjah,Card
+121,01/09/2026,1121,100121,MegaGizmo X,home goods,Retail,767.63,871.71,,538,Low Stock,Sharjah,Card
+122,03/12/2026,1122,100122,InnoTech 3000,accessories,Oniline,499.7,971.32,43.18,464,Out of Stock,Dubai,Card
+123,4/15/2025,1123,100123,TechSavvy 5000,appliances,Oniline,882.78,698.19,28.34,950,Out of Stock,Abu Dhabi,Cash
+124,7/30/2025,1124,100124,MegaGizmo X,electronics,Oniline,974.48,893.67,49.33,41,Out of Stock,Dubai,Cash
+125,11/30/2025,1125,100125,UltimateGadget Pro,clothing,Oniline,736.04,1335.24,10.7,371,Out of Stock,Ajman,Cash
+126,7/27/2025,1126,100126,SuperWidget 2000,accessories,Retail,331.68,1274.48,2.07,883,In Stock,Ajman,Card
+127,03/04/2026,1127,100127,FutureTech 10000,appliances,Retail,401.7,253.8,27.19,903,In Stock,Ajman,Online
+128,01/02/2026,1128,100128,,electronics,Oniline,640.85,804,32.67,977,In Stock,Sharjah,Cash
+129,08/07/2025,1129,100129,FutureTech 10000,home goods,Oniline,381.73,150.94,,581,Low Stock,Ajman,Cash
+130,10/14/2025,1130,100130,FutureTech 10000,accessories,Oniline,332.93,196.2,21.97,346,Low Stock,Sharjah,Online
+131,05/08/2025,1131,100131,GigaGadget 9000,electronics,Oniline,816.81,1357.15,24.3,523,Low Stock,Sharjah,
+132,1/14/2026,1132,100132,SmartTech Elite,appliances,Retail,989.1,245.87,35.01,897,Low Stock,Sharjah,Cash
+133,10/04/2025,1133,100133,EcoFriendly Tech,clothing,Retail,818.56,1283.67,35.79,179,Low Stock,Ajman,Cash
+134,12/10/2025,1134,100134,TechSavvy 5000,home goods,Retail,417.6,696.75,0.39,188,Low Stock,Ajman,Online
+135,10/12/2025,1135,100135,,accessories,Oniline,916.26,414.08,37.54,533,Out of Stock,Sharjah,Online
+136,05/06/2025,1136,100136,UltimateGadget Pro,electronics,Oniline,891.91,63.93,3.95,654,In Stock,Dubai,Cash
+137,07/01/2025,1137,100137,GigaGadget 9000,accessories,Oniline,208.1,560.42,15.06,880,In Stock,Ajman,Online
+138,4/26/2025,1138,100138,PowerTech Max,clothing,Retail,323.44,1237.58,18.93,486,Out of Stock,Ajman,Online
+139,8/18/2025,1139,100139,EcoFriendly Tech,electronics,Oniline,836.04,746.51,7.29,301,Low Stock,Ajman,Card
+140,01/01/2026,1140,100140,SuperWidget 2000,electronics,Oniline,598.28,124.6,47.72,863,In Stock,Ajman,Card
+141,06/12/2025,1141,100141,FutureTech 10000,home goods,Retail,537.49,379.17,12.17,527,In Stock,Sharjah,Online
+142,3/15/2026,1142,100142,UltimateGadget Pro,appliances,Oniline,564.02,27.35,8,989,Low Stock,,Card
+143,02/01/2025,1143,100143,InnoTech 3000,home goods,Retail,511.7,840.85,43.21,515,In Stock,Abu Dhabi,Card
+144,01/11/2026,1144,100144,PowerTech Max,,Oniline,305.23,1003.68,,132,Low Stock,Ajman,Cash
+145,8/31/2025,1145,100145,UltimateGadget Pro,clothing,Oniline,845.89,976.64,22.95,875,In Stock,Dubai,Cash
+146,03/10/2025,1146,100146,,electronics,Retail,229.9,108.19,37.94,337,Out of Stock,Sharjah,Online
+147,11/23/2025,1147,100147,FutureTech 10000,accessories,Oniline,514.76,60.62,34.46,413,Low Stock,Dubai,Cash
+148,1/18/2025,1148,100148,PowerTech Max,electronics,Oniline,658.3,1365.08,18.4,937,Low Stock,Abu Dhabi,Card
+149,2/27/2026,1149,100149,TechSavvy 5000,home goods,Retail,195.62,567.55,49.51,963,In Stock,Dubai,Cash
+150,08/02/2025,1150,100150,PowerTech Max,home goods,Oniline,453.86,1042.79,43.51,713,Low Stock,Abu Dhabi,Cash
+151,12/13/2025,1151,100151,TechSavvy 5000,clothing,Retail,954.01,514.01,,462,,Abu Dhabi,Card
+152,12/05/2025,1152,100152,MegaGizmo X,clothing,Retail,885.47,560.16,16.9,626,Low Stock,Sharjah,Card
+153,11/11/2025,1153,100153,PowerTech Max,home goods,Oniline,245.63,136.78,44.23,104,,Abu Dhabi,Online
+154,11/22/2025,1154,100154,PowerTech Max,home goods,Oniline,845.03,17.11,2.06,138,In Stock,Dubai,Cash
+155,2/22/2025,1155,100155,EcoFriendly Tech,clothing,Oniline,157.42,527.21,21.68,999,Low Stock,Dubai,Cash
+156,01/01/2026,1156,100156,MegaGizmo X,,Oniline,120.77,917.6,16.56,218,Out of Stock,Ajman,Online
+157,11/15/2025,1157,100157,SmartTech Elite,clothing,Retail,850.58,848.55,11.76,649,Low Stock,Ajman,Online
+158,05/04/2025,1158,100158,EcoFriendly Tech,appliances,Retail,340.35,754.46,48.13,21,In Stock,,Online
+159,9/20/2025,1159,100159,InnoTech 3000,accessories,,971.27,207.57,11.49,832,Low Stock,Abu Dhabi,Cash
+160,12/20/2025,1160,100160,UltimateGadget Pro,appliances,Retail,362.52,1069.06,15.39,172,Low Stock,Dubai,Online
+161,3/16/2025,1161,100161,SuperWidget 2000,clothing,Oniline,612.44,1353.1,2.68,155,In Stock,,Card
+162,12/08/2025,1162,100162,MegaGizmo X,accessories,Oniline,705.46,1436.49,31.06,626,In Stock,Ajman,Card
+163,1/28/2026,1163,100163,MegaGizmo X,accessories,Oniline,386.75,888.04,17.65,631,In Stock,Sharjah,Online
+164,11/16/2025,1164,100164,,accessories,Retail,267.55,250.94,7.72,784,In Stock,,Cash
+165,07/03/2025,1165,100165,UltimateGadget Pro,accessories,Retail,22.03,1094.72,16.2,540,In Stock,Dubai,Cash
+166,1/19/2026,1166,100166,,electronics,Retail,368.77,147.28,8.13,228,Low Stock,Abu Dhabi,Card
+167,11/29/2025,1167,100167,InnoTech 3000,accessories,Oniline,455.15,281.81,18.52,119,Low Stock,Ajman,Card
+168,11/28/2025,1168,100168,InnoTech 3000,accessories,Retail,464.8,1458.31,15.37,241,In Stock,Dubai,Card
+169,3/26/2025,1169,100169,SmartTech Elite,electronics,Retail,961.29,1223.82,28.88,674,Out of Stock,Abu Dhabi,Card
+170,4/30/2025,1170,100170,UltimateGadget Pro,electronics,Retail,931.63,522.99,29.44,892,Out of Stock,Sharjah,Card
+171,10/28/2025,1171,100171,MegaGizmo X,clothing,Retail,215.06,1118.5,43.68,353,In Stock,Ajman,Online
+172,4/17/2025,1172,100172,UltimateGadget Pro,clothing,Oniline,301.02,501.04,,205,Out of Stock,,Online
+173,10/26/2025,1173,100173,MegaGizmo X,electronics,Retail,181.29,368.41,27.37,633,,Ajman,Cash
+174,1/31/2025,1174,100174,MegaGizmo X,accessories,Oniline,495.03,828.02,37.24,697,Low Stock,Abu Dhabi,Card
+175,11/03/2025,1175,100175,SuperWidget 2000,clothing,Retail,117.96,590.15,2.89,372,In Stock,Ajman,Online
+176,8/31/2025,1176,100176,,electronics,Oniline,753.4,687.44,42.65,436,Out of Stock,Sharjah,Card
+177,8/23/2025,1177,100177,EcoFriendly Tech,,Retail,406.71,866.98,46.19,84,In Stock,Abu Dhabi,Card
+178,11/19/2025,1178,100178,InnoTech 3000,accessories,Oniline,976.42,954.27,,341,Out of Stock,Sharjah,Online
+179,12/18/2025,1179,100179,TechSavvy 5000,,Retail,467.07,951,,413,Out of Stock,Sharjah,Card
+180,6/25/2025,1180,100180,MegaGizmo X,appliances,Oniline,464.24,696.07,27.3,579,Low Stock,,
+181,7/30/2025,1181,100181,TechSavvy 5000,appliances,Retail,848.78,1184.4,19.65,536,Low Stock,Ajman,Online
+182,02/12/2026,1182,100182,MegaGizmo X,clothing,Oniline,442.19,429.55,,370,Low Stock,Sharjah,Online
+183,5/15/2025,1183,100183,SmartTech Elite,,Oniline,353.68,1395.81,15.04,658,Out of Stock,Ajman,Cash
+184,06/07/2025,1184,100184,InnoTech 3000,accessories,Retail,611.38,877.11,4.03,516,Out of Stock,Dubai,Online
+185,06/06/2025,1185,100185,FutureTech 10000,clothing,Retail,819.87,1410.89,6.46,347,,Sharjah,Online
+186,3/28/2025,1186,100186,UltimateGadget Pro,appliances,Oniline,486.15,1210.99,26.94,957,In Stock,Abu Dhabi,Card
+187,11/21/2025,1187,100187,TechSavvy 5000,accessories,Retail,427.34,1161.35,,904,In Stock,Ajman,Cash
+188,05/01/2025,1188,100188,SmartTech Elite,,Retail,756.1,451.78,,838,,Sharjah,Card
+189,1/17/2025,1189,100189,FutureTech 10000,appliances,,342.41,1012.52,49.2,876,Low Stock,Ajman,Card
+190,11/20/2025,1190,100190,InnoTech 3000,appliances,Retail,514.2,293,28.09,63,In Stock,Dubai,Card
+191,04/11/2025,1191,100191,InnoTech 3000,home goods,Retail,519.16,1161.34,30.01,881,Low Stock,Dubai,Cash
+192,7/24/2025,1192,100192,SmartTech Elite,accessories,Oniline,718.17,876.31,10.99,695,In Stock,Abu Dhabi,Cash
+193,2/19/2025,1193,100193,SuperWidget 2000,home goods,Retail,227.27,356.37,10.53,503,Low Stock,Dubai,Cash
+194,3/23/2026,1194,100194,FutureTech 10000,home goods,Oniline,752.94,1343.88,5.52,619,Out of Stock,Abu Dhabi,Online
+195,3/28/2025,1195,100195,TechSavvy 5000,accessories,Retail,670.61,1158.35,13.49,332,Low Stock,Sharjah,Card
+196,10/05/2025,1196,100196,,accessories,Oniline,438.94,1361.36,28.43,585,In Stock,Sharjah,Online
+197,7/31/2025,1197,100197,FutureTech 10000,accessories,Retail,741.77,1048.03,32.43,857,In Stock,Dubai,Card
+198,2/27/2025,1198,100198,EcoFriendly Tech,electronics,Oniline,46.93,775.56,46.14,946,Out of Stock,Ajman,Online
+199,02/11/2025,1199,100199,SmartTech Elite,electronics,Oniline,917.05,111.99,3.22,834,,Ajman,Online
+200,12/19/2025,1200,100200,PowerTech Max,home goods,Retail,135.93,97.81,19.52,972,In Stock,,Online
+201,03/10/2025,1201,100201,PowerTech Max,accessories,Oniline,458.01,1265.97,3.64,555,Low Stock,Abu Dhabi,Online
+202,01/07/2026,1202,100202,TechSavvy 5000,appliances,Oniline,368.48,1210.18,43.89,194,In Stock,Ajman,Cash
+203,12/31/2025,1203,100203,FutureTech 10000,home goods,Retail,888.9,1441.21,,955,Out of Stock,Abu Dhabi,Cash
+204,01/03/2026,1204,100204,TechSavvy 5000,appliances,Oniline,681.45,277.58,19.97,524,Low Stock,Sharjah,Card
+205,12/06/2025,1205,100205,SmartTech Elite,electronics,Oniline,814.77,19.14,25.64,242,Low Stock,Abu Dhabi,Online
+206,03/04/2026,1206,100206,UltimateGadget Pro,clothing,Retail,232.07,763.68,40.3,79,In Stock,Dubai,Online
+207,1/24/2026,1207,100207,UltimateGadget Pro,appliances,Retail,758.49,1309.57,1.17,521,In Stock,Sharjah,Cash
+208,04/06/2025,1208,100208,SmartTech Elite,accessories,Retail,580.78,737.03,26.37,626,Low Stock,Abu Dhabi,Card
+209,2/14/2026,1209,100209,UltimateGadget Pro,appliances,Retail,431.4,1191.03,5.51,49,Low Stock,Abu Dhabi,Online
+210,08/09/2025,1210,100210,SuperWidget 2000,electronics,Oniline,474.86,723.49,19.51,206,In Stock,,Card
+211,11/09/2025,1211,100211,MegaGizmo X,accessories,Oniline,756.03,1125.52,22.03,75,Low Stock,Abu Dhabi,Cash
+212,01/10/2026,1212,100212,PowerTech Max,,Oniline,918.53,1182.81,9.84,774,Low Stock,Ajman,Cash
+213,11/22/2025,1213,100213,SuperWidget 2000,home goods,Oniline,523.31,1436.99,21.55,944,Out of Stock,Dubai,
+214,7/27/2025,1214,100214,,clothing,,431.95,441.67,7.31,349,In Stock,Sharjah,Cash
+215,1/17/2025,1215,100215,SmartTech Elite,appliances,Retail,945.17,70.29,2.48,903,Out of Stock,,Cash
+216,2/27/2025,1216,100216,PowerTech Max,home goods,Oniline,315.32,1282.6,46.44,76,Low Stock,Dubai,Online
+217,02/06/2025,1217,100217,MegaGizmo X,home goods,Retail,739.76,1498.91,2.67,731,Out of Stock,Sharjah,Cash
+218,1/26/2025,1218,100218,,electronics,Oniline,486.22,110.7,4.15,736,Low Stock,Sharjah,Card
+219,09/08/2025,1219,100219,FutureTech 10000,appliances,Retail,725.16,117.45,47.65,366,Low Stock,Abu Dhabi,Card
+220,10/28/2025,1220,100220,InnoTech 3000,,Retail,774.23,1182.8,19.4,576,,Dubai,Online
+221,8/15/2025,1221,100221,PowerTech Max,clothing,Oniline,837.62,1409.55,37.34,733,In Stock,Sharjah,Online
+222,6/20/2025,1222,100222,UltimateGadget Pro,appliances,Retail,541.55,1233.68,26.73,809,Low Stock,Dubai,Cash
+223,07/08/2025,1223,100223,PowerTech Max,,Retail,317.23,989.32,38.22,211,Low Stock,Sharjah,Cash
+224,11/19/2025,1224,100224,SuperWidget 2000,home goods,Oniline,308.72,51.63,,677,Out of Stock,Sharjah,Cash
+225,01/12/2025,1225,100225,TechSavvy 5000,home goods,Retail,744.4,845.22,11.14,934,Low Stock,Dubai,
+226,10/04/2025,1226,100226,TechSavvy 5000,home goods,Oniline,618.17,550.43,41.29,797,Low Stock,Ajman,Card
+227,01/09/2025,1227,100227,TechSavvy 5000,clothing,Oniline,598.39,974.03,48.53,348,In Stock,Dubai,Cash
+228,08/01/2025,1228,100228,SuperWidget 2000,home goods,Oniline,841.96,837.85,,149,Low Stock,Abu Dhabi,Card
+229,3/16/2026,1229,100229,,home goods,Retail,902.34,215.12,36.04,853,Low Stock,,Online
+230,3/15/2025,1230,100230,MegaGizmo X,electronics,Retail,621.06,763.29,38.03,782,Out of Stock,Sharjah,Card
+231,03/08/2025,1231,100231,InnoTech 3000,electronics,Oniline,401.39,697.9,41.21,960,In Stock,Ajman,Cash
+232,02/03/2026,1232,100232,PowerTech Max,clothing,Retail,351.56,1223.48,7.14,265,,Ajman,Online
+233,02/01/2025,1233,100233,,home goods,Retail,80.19,953.44,29.13,828,In Stock,Sharjah,Online
+234,12/01/2025,1234,100234,FutureTech 10000,clothing,Retail,978.42,977.66,14.03,935,In Stock,Dubai,Cash
+235,12/30/2025,1235,100235,SuperWidget 2000,appliances,Oniline,489.04,131.37,,529,Low Stock,Abu Dhabi,Online
+236,02/03/2025,1236,100236,GigaGadget 9000,home goods,Retail,302.71,786.02,20.39,609,Low Stock,Abu Dhabi,Card
+237,4/27/2025,1237,100237,FutureTech 10000,home goods,Retail,173.96,624.26,30.59,521,Out of Stock,Ajman,Card
+238,5/27/2025,1238,100238,,accessories,Oniline,604.47,470.64,31.06,500,Low Stock,Abu Dhabi,Online
+239,07/10/2025,1239,100239,MegaGizmo X,home goods,Oniline,61.42,437.83,7.12,279,Out of Stock,Ajman,Cash
+240,7/25/2025,1240,100240,UltimateGadget Pro,electronics,,50.2,728.63,15.96,809,Out of Stock,Abu Dhabi,Card
+241,05/01/2025,1241,100241,EcoFriendly Tech,electronics,Oniline,113.87,92.62,27.19,527,Low Stock,Ajman,
+242,02/04/2026,1242,100242,PowerTech Max,clothing,Oniline,879.77,1278.65,,668,Low Stock,,Cash
+243,09/09/2025,1243,100243,UltimateGadget Pro,,Retail,339.14,258.19,31.05,949,Out of Stock,Dubai,Online
+244,10/11/2025,1244,100244,PowerTech Max,electronics,Retail,814.32,421.77,,781,Low Stock,Dubai,Cash
+245,8/31/2025,1245,100245,PowerTech Max,electronics,Oniline,56.82,1478.36,4.64,831,Out of Stock,Sharjah,Online
+246,3/16/2025,1246,100246,MegaGizmo X,appliances,Retail,11.41,1110.37,28.83,604,Out of Stock,Dubai,Online
+247,12/05/2025,1247,100247,InnoTech 3000,home goods,Retail,615.67,338.31,39.83,172,Low Stock,Dubai,Cash
+248,1/20/2025,1248,100248,UltimateGadget Pro,appliances,Retail,85.14,327.21,8.01,50,In Stock,Ajman,Cash
+249,8/22/2025,1249,100249,GigaGadget 9000,accessories,Oniline,434.59,1091.51,39.74,676,Out of Stock,Ajman,Online
+250,05/07/2025,1250,100250,GigaGadget 9000,home goods,Retail,444.16,322.06,8.83,294,Low Stock,Sharjah,Card
+251,12/30/2025,1251,100251,PowerTech Max,clothing,Oniline,687.58,1070.25,25.78,413,Out of Stock,Abu Dhabi,Online
+252,9/13/2025,1252,100252,InnoTech 3000,home goods,Retail,867.51,526.47,,938,Low Stock,,
+253,1/23/2025,1253,100253,InnoTech 3000,clothing,Oniline,427.59,358.99,19.79,392,Out of Stock,Dubai,Cash
+254,1/25/2026,1254,100254,SmartTech Elite,electronics,Oniline,989.41,608.97,1.59,799,Low Stock,Abu Dhabi,
+255,11/07/2025,1255,100255,EcoFriendly Tech,appliances,Oniline,524.96,39.27,7.09,382,In Stock,Sharjah,Online
+256,10/11/2025,1256,100256,SmartTech Elite,home goods,Retail,159.75,15.48,40.77,502,Out of Stock,Dubai,Card
+257,8/30/2025,1257,100257,GigaGadget 9000,electronics,Retail,515.61,626.39,35.51,343,In Stock,Abu Dhabi,Cash
+258,02/09/2026,1258,100258,MegaGizmo X,electronics,Oniline,606.84,131.79,2.31,62,In Stock,Ajman,Card
+259,01/12/2025,1259,100259,PowerTech Max,electronics,Retail,455,867.93,,487,Low Stock,,Cash
+260,1/30/2025,1260,100260,UltimateGadget Pro,accessories,Oniline,713.17,105.42,8.99,996,Low Stock,Ajman,Online
+261,03/07/2025,1261,100261,SmartTech Elite,clothing,Oniline,49.04,1256.99,42.24,935,Out of Stock,Abu Dhabi,Online
+262,02/08/2026,1262,100262,MegaGizmo X,appliances,Retail,369.82,36.14,33.06,473,Out of Stock,Dubai,Online
+263,01/09/2026,1263,100263,SuperWidget 2000,electronics,Retail,175.56,169.91,23.99,335,Out of Stock,Sharjah,Card
+264,03/12/2026,1264,100264,GigaGadget 9000,clothing,Oniline,289.55,798.57,0.32,215,In Stock,Dubai,Card
+265,2/20/2026,1265,100265,SmartTech Elite,home goods,Retail,976.85,1429.81,31.59,386,Out of Stock,Sharjah,Card
+266,05/02/2025,1266,100266,TechSavvy 5000,accessories,Oniline,383.82,527.16,6.96,89,,Dubai,Card
+267,3/20/2025,1267,100267,PowerTech Max,electronics,Oniline,695.51,668.15,14,846,Low Stock,Sharjah,Cash
+268,6/25/2025,1268,100268,FutureTech 10000,electronics,Retail,75.02,458.51,37.32,577,Low Stock,Sharjah,Cash
+269,12/02/2025,1269,100269,PowerTech Max,home goods,Oniline,131.26,1332.33,33.84,396,Low Stock,Sharjah,Card
+270,4/26/2025,1270,100270,PowerTech Max,home goods,Retail,445.92,1174.1,41.9,363,Low Stock,Sharjah,Card
+271,10/07/2025,1271,100271,InnoTech 3000,,Retail,678.55,440.06,48.8,350,Out of Stock,Dubai,Cash
+272,09/05/2025,1272,100272,InnoTech 3000,accessories,Retail,599.01,505.45,39.32,558,Out of Stock,Abu Dhabi,Card
+273,5/20/2025,1273,100273,UltimateGadget Pro,accessories,Retail,93.76,1448.04,33.48,448,In Stock,Abu Dhabi,Card
+274,2/21/2025,1274,100274,SmartTech Elite,home goods,Oniline,759.3,1179.95,48.35,994,Low Stock,Ajman,Online
+275,08/07/2025,1275,100275,GigaGadget 9000,clothing,Retail,873.07,1243.62,36.52,766,Out of Stock,Sharjah,Cash
+276,06/09/2025,1276,100276,SmartTech Elite,home goods,Oniline,190.01,194.41,22.68,554,Low Stock,,Online
+277,12/22/2025,1277,100277,UltimateGadget Pro,appliances,Retail,989.01,1185.54,15.77,347,Low Stock,Abu Dhabi,Cash
+278,12/29/2025,1278,100278,TechSavvy 5000,home goods,Retail,89.29,1196.61,43.34,22,Out of Stock,Ajman,
+279,6/30/2025,1279,100279,UltimateGadget Pro,electronics,Retail,106.4,1109.69,36.24,891,Low Stock,Dubai,Cash
+280,2/15/2026,1280,100280,PowerTech Max,home goods,Oniline,886.14,1406.76,,182,Low Stock,Abu Dhabi,Card
+281,1/22/2025,1281,100281,MegaGizmo X,electronics,Retail,822.1,1187.16,26.94,569,Out of Stock,Sharjah,Online
+282,9/23/2025,1282,100282,InnoTech 3000,accessories,Retail,334.42,577.4,43.09,705,In Stock,Ajman,Online
+283,11/03/2025,1283,100283,SmartTech Elite,clothing,Retail,405.27,1424.53,2.07,160,Out of Stock,Ajman,Online
+284,11/30/2025,1284,100284,MegaGizmo X,accessories,Retail,466.68,891.13,33.29,988,Out of Stock,Abu Dhabi,Online
+285,1/14/2026,1285,100285,,appliances,Oniline,766.38,1324.72,8.86,324,In Stock,Dubai,Card
+286,8/17/2025,1286,100286,,home goods,,167.63,1424.59,3.98,315,Low Stock,Sharjah,Card
+287,02/11/2025,1287,100287,TechSavvy 5000,home goods,Oniline,290.18,768.14,14.27,848,Out of Stock,Sharjah,Online
+288,05/09/2025,1288,100288,SuperWidget 2000,accessories,Oniline,150.91,902.27,23.81,225,Out of Stock,Sharjah,
+289,08/07/2025,1289,100289,SmartTech Elite,clothing,Oniline,749.69,671.18,21.53,600,Low Stock,Ajman,Online
+290,08/12/2025,1290,100290,EcoFriendly Tech,clothing,Oniline,637.86,583.72,6.93,74,Out of Stock,Ajman,
+291,02/10/2026,1291,100291,UltimateGadget Pro,electronics,Retail,307.03,125.55,45.14,37,In Stock,Ajman,
+292,04/01/2025,1292,100292,InnoTech 3000,home goods,Retail,35.66,112.35,14.61,185,In Stock,Sharjah,Online
+293,6/17/2025,1293,100293,EcoFriendly Tech,accessories,Retail,175.33,1473.21,5.66,902,Out of Stock,Sharjah,Cash
+294,03/06/2025,1294,100294,MegaGizmo X,accessories,Oniline,309.56,1104.71,18.98,741,Out of Stock,Ajman,Cash
+295,1/16/2025,1295,100295,SuperWidget 2000,appliances,Oniline,408.97,58.16,44.62,963,In Stock,Dubai,Card
+296,5/17/2025,1296,100296,TechSavvy 5000,appliances,Retail,123.69,1270.36,36.83,131,Out of Stock,Dubai,Online
+297,05/01/2025,1297,100297,,accessories,Oniline,309.83,710.53,40.95,38,Low Stock,Ajman,Cash
+298,01/12/2026,1298,100298,GigaGadget 9000,,Oniline,735.95,61.77,43.1,920,,Abu Dhabi,Card
+299,8/26/2025,1299,100299,EcoFriendly Tech,clothing,Oniline,559.28,334.03,36.1,573,,Dubai,Card
+300,09/01/2025,1300,100300,InnoTech 3000,clothing,Oniline,564.69,965.72,36.76,451,Low Stock,Sharjah,Online
+301,9/18/2025,1301,100301,UltimateGadget Pro,appliances,Retail,698.44,108.77,14.37,969,In Stock,Dubai,Online
+302,12/08/2025,1302,100302,MegaGizmo X,home goods,Oniline,680.34,1325.82,20.39,858,,Ajman,Online
+303,8/22/2025,1303,100303,,home goods,Retail,48.79,1324.36,32.21,434,Low Stock,Abu Dhabi,Online
+304,8/16/2025,1304,100304,GigaGadget 9000,accessories,Retail,65.01,50.19,8.06,64,In Stock,,
+305,07/12/2025,1305,100305,TechSavvy 5000,,Retail,579.09,996.42,4.06,954,In Stock,,Cash
+306,11/04/2025,1306,100306,SuperWidget 2000,,Oniline,192.68,1465.85,,416,Low Stock,Sharjah,Card
+307,06/12/2025,1307,100307,SmartTech Elite,electronics,Retail,67.81,1218.45,33.41,137,In Stock,Dubai,Cash
+308,10/26/2025,1308,100308,SmartTech Elite,accessories,Retail,510.62,45.97,19.61,772,Out of Stock,Ajman,Online
+309,3/22/2026,1309,100309,PowerTech Max,appliances,Retail,619.41,559.98,22.87,720,Low Stock,Abu Dhabi,Online
+310,4/14/2025,1310,100310,TechSavvy 5000,electronics,Retail,920.91,1435.29,22.04,210,Low Stock,Sharjah,Card
+311,3/29/2026,1311,100311,PowerTech Max,clothing,Oniline,527.46,1484.74,34,656,Low Stock,Sharjah,Online
+312,3/19/2026,1312,100312,InnoTech 3000,,,745.69,1464.52,33.06,39,In Stock,Abu Dhabi,Cash
+313,7/22/2025,1313,100313,SuperWidget 2000,accessories,Oniline,780.43,1011.49,27.85,215,Low Stock,Dubai,Cash
+314,08/01/2025,1314,100314,UltimateGadget Pro,appliances,Retail,838.14,1381.95,4.32,595,Low Stock,Ajman,Cash
+315,1/16/2025,1315,100315,PowerTech Max,home goods,Retail,386.34,1258.16,36.85,818,Out of Stock,Ajman,Online
+316,03/11/2025,1316,100316,UltimateGadget Pro,appliances,Retail,989.98,843.76,25.95,516,In Stock,Abu Dhabi,Card
+317,3/24/2025,1317,100317,GigaGadget 9000,home goods,Retail,64.13,687.84,5.06,181,In Stock,Ajman,Online
+318,7/18/2025,1318,100318,EcoFriendly Tech,clothing,Retail,119.02,465.72,9.35,149,,Abu Dhabi,Cash
+319,5/17/2025,1319,100319,SuperWidget 2000,,Retail,710.55,179.99,44.72,901,Out of Stock,Ajman,Card
+320,03/12/2026,1320,100320,EcoFriendly Tech,home goods,Oniline,619.96,1210.91,40.24,354,In Stock,Abu Dhabi,Cash
+321,01/12/2026,1321,100321,GigaGadget 9000,accessories,Oniline,464.77,1181.06,16.04,774,Low Stock,Ajman,Cash
+322,5/22/2025,1322,100322,TechSavvy 5000,clothing,Oniline,869.72,616.55,27.6,567,In Stock,Abu Dhabi,Card
+323,1/26/2026,1323,100323,MegaGizmo X,,Retail,442.13,501.77,25.86,874,Low Stock,Abu Dhabi,Online
+324,7/30/2025,1324,100324,FutureTech 10000,clothing,Oniline,533.05,1333.84,,885,Low Stock,Abu Dhabi,Online
+325,8/16/2025,1325,100325,SuperWidget 2000,clothing,Oniline,603.37,955.71,45.53,487,Low Stock,Sharjah,Card
+326,01/12/2025,1326,100326,MegaGizmo X,electronics,Retail,420.69,1159.95,33.71,540,Out of Stock,Sharjah,Online
+327,3/19/2026,1327,100327,MegaGizmo X,,Retail,214.94,1488.79,23.42,401,,Abu Dhabi,Cash
+328,07/08/2025,1328,100328,MegaGizmo X,clothing,Oniline,836.3,644.45,,275,In Stock,Dubai,Cash
+329,2/28/2025,1329,100329,PowerTech Max,home goods,Retail,797.73,39.16,24.46,905,Low Stock,Dubai,Cash
+330,12/15/2025,1330,100330,,accessories,Retail,598.42,742.4,18.93,301,In Stock,Dubai,Card
+331,1/17/2025,1331,100331,GigaGadget 9000,home goods,Oniline,597.23,1116.23,13.26,950,Out of Stock,Dubai,Card
+332,09/11/2025,1332,100332,TechSavvy 5000,electronics,Retail,884.45,710.94,,445,In Stock,Ajman,Cash
+333,6/24/2025,1333,100333,TechSavvy 5000,electronics,Retail,946.44,25.5,21.22,714,Low Stock,Dubai,Cash
+334,04/01/2025,1334,100334,InnoTech 3000,accessories,Oniline,264.62,364.26,34.46,949,Out of Stock,Ajman,Online
+335,08/02/2025,1335,100335,PowerTech Max,appliances,Retail,445.49,1033.76,1.28,796,Low Stock,Abu Dhabi,Cash
+336,05/04/2025,1336,100336,SuperWidget 2000,electronics,Oniline,25.73,1132.81,35.84,859,Low Stock,Dubai,Card
+337,04/07/2025,1337,100337,UltimateGadget Pro,accessories,Retail,517.78,885.27,1.19,456,Out of Stock,Abu Dhabi,Card
+338,03/10/2026,1338,100338,PowerTech Max,electronics,Retail,672.44,1418.19,27.1,997,Low Stock,Sharjah,Card
+339,2/22/2025,1339,100339,InnoTech 3000,accessories,Oniline,192.56,1187.32,35.26,917,In Stock,Abu Dhabi,Cash
+340,03/03/2026,1340,100340,EcoFriendly Tech,home goods,Oniline,962.94,754.57,39.12,562,Out of Stock,Sharjah,Cash
+341,12/03/2025,1341,100341,UltimateGadget Pro,,Retail,162.61,1172.88,10.07,757,Out of Stock,Abu Dhabi,Cash
+342,7/19/2025,1342,100342,EcoFriendly Tech,home goods,Oniline,333.91,789.79,32.01,197,In Stock,Sharjah,Card
+343,3/29/2025,1343,100343,InnoTech 3000,appliances,Retail,249.96,423.12,19.72,520,In Stock,Sharjah,Cash
+344,02/01/2025,1344,100344,EcoFriendly Tech,appliances,Retail,24.55,1172.78,18.38,508,In Stock,Ajman,Online
+345,3/18/2026,1345,100345,FutureTech 10000,appliances,Retail,533.81,626.39,36.24,884,In Stock,Ajman,Online
+346,2/13/2026,1346,100346,FutureTech 10000,accessories,Oniline,116.25,739.79,12.41,512,Low Stock,Sharjah,Card
+347,4/16/2025,1347,100347,InnoTech 3000,appliances,Oniline,206,1173.04,28.33,811,Out of Stock,Abu Dhabi,Card
+348,12/06/2025,1348,100348,PowerTech Max,,Oniline,430.24,1129.77,34.09,573,Out of Stock,Sharjah,Card
+349,02/08/2026,1349,100349,EcoFriendly Tech,clothing,Retail,742.65,171.34,6.49,721,Out of Stock,,Online
+350,7/29/2025,1350,100350,SuperWidget 2000,home goods,Oniline,97.78,531.34,46.49,975,In Stock,Abu Dhabi,Cash
+351,6/28/2025,1351,100351,MegaGizmo X,electronics,Retail,594.39,609.35,38.41,942,Out of Stock,Dubai,Card
+352,12/06/2025,1352,100352,TechSavvy 5000,electronics,Oniline,870.12,790.77,34.25,865,Out of Stock,Dubai,Cash
+353,07/09/2025,1353,100353,UltimateGadget Pro,home goods,Retail,72.13,1312.87,2.5,307,Out of Stock,Abu Dhabi,Cash
+354,01/10/2026,1354,100354,SmartTech Elite,electronics,Oniline,831.5,112.33,35.2,515,Low Stock,Abu Dhabi,Cash
+355,2/13/2025,1355,100355,MegaGizmo X,home goods,Oniline,185.71,631.94,50,246,Out of Stock,,Card
+356,01/08/2026,1356,100356,TechSavvy 5000,appliances,Retail,86.08,987.94,35.53,605,In Stock,Abu Dhabi,Cash
+357,2/28/2025,1357,100357,PowerTech Max,home goods,Retail,641.85,1361.6,35.23,341,Out of Stock,Abu Dhabi,
+358,6/27/2025,1358,100358,SmartTech Elite,electronics,Retail,768.19,525.75,36.8,639,Low Stock,Abu Dhabi,Online
+359,4/17/2025,1359,100359,TechSavvy 5000,home goods,Retail,941.27,657.35,36.3,86,Low Stock,Sharjah,
+360,3/21/2025,1360,100360,UltimateGadget Pro,home goods,Retail,676.81,353.27,36.67,698,Low Stock,Ajman,Online
+361,09/11/2025,1361,100361,GigaGadget 9000,appliances,Retail,389.04,823.6,17.7,399,In Stock,Abu Dhabi,Cash
+362,9/13/2025,1362,100362,SuperWidget 2000,electronics,Retail,457.02,1025.5,13.06,329,Low Stock,Dubai,Online
+363,2/24/2025,1363,100363,PowerTech Max,electronics,Retail,397.5,299.66,27.74,60,In Stock,Dubai,Online
+364,12/25/2025,1364,100364,MegaGizmo X,clothing,Oniline,27.18,1233.17,8.89,598,Out of Stock,Abu Dhabi,Online
+365,10/01/2025,1365,100365,TechSavvy 5000,electronics,Oniline,234.91,808.94,35.88,368,Out of Stock,Ajman,Card
+366,9/16/2025,1366,100366,TechSavvy 5000,appliances,Retail,177.32,1465.39,31.89,210,In Stock,Abu Dhabi,Cash
+367,5/13/2025,1367,100367,TechSavvy 5000,home goods,Oniline,610.03,1483.71,30.04,383,In Stock,Sharjah,Online
+368,02/01/2026,1368,100368,GigaGadget 9000,accessories,Oniline,49.32,1251.66,35.67,784,In Stock,Sharjah,
+369,2/24/2025,1369,100369,MegaGizmo X,clothing,,80.72,1174.27,6.63,697,Out of Stock,Ajman,Cash
+370,03/05/2025,1370,100370,FutureTech 10000,clothing,Retail,364.41,430.49,24.03,465,Out of Stock,Abu Dhabi,Cash
+371,4/17/2025,1371,100371,PowerTech Max,clothing,Oniline,521.57,1399.52,6.57,910,In Stock,Sharjah,Cash
+372,8/26/2025,1372,100372,FutureTech 10000,accessories,Retail,155.31,182.1,38.78,34,In Stock,Abu Dhabi,
+373,8/17/2025,1373,100373,GigaGadget 9000,electronics,Retail,986.95,734.76,35.65,991,,Abu Dhabi,Online
+374,09/02/2025,1374,100374,,home goods,Retail,65.37,68.63,20.83,66,Out of Stock,Ajman,Online
+375,7/26/2025,1375,100375,,electronics,Retail,364.1,1202.57,12.33,709,Low Stock,Sharjah,Card
+376,3/24/2026,1376,100376,EcoFriendly Tech,electronics,Oniline,593.68,69.83,44.67,909,Out of Stock,Dubai,Card
+377,5/24/2025,1377,100377,UltimateGadget Pro,electronics,Oniline,944.51,1450.48,,965,Low Stock,Ajman,Online
+378,03/01/2025,1378,100378,GigaGadget 9000,clothing,Retail,442.84,295.78,40.83,939,Out of Stock,Abu Dhabi,Online
+379,03/06/2026,1379,100379,SuperWidget 2000,clothing,Oniline,638.39,1144.06,45.61,598,Out of Stock,Sharjah,Cash
+380,01/12/2026,1380,100380,TechSavvy 5000,electronics,Retail,190.83,575.15,13.99,468,,Ajman,Cash
+381,5/13/2025,1381,100381,FutureTech 10000,home goods,Retail,191.05,437.11,27.32,64,Low Stock,Abu Dhabi,Online
+382,4/26/2025,1382,100382,InnoTech 3000,appliances,Oniline,85.61,1203.57,0.8,513,In Stock,Abu Dhabi,Cash
+383,4/14/2025,1383,100383,TechSavvy 5000,appliances,Oniline,957.47,932.23,18.39,262,In Stock,Sharjah,
+384,2/22/2026,1384,100384,GigaGadget 9000,accessories,Retail,410.42,420.68,15.92,332,Out of Stock,Sharjah,Cash
+385,5/30/2025,1385,100385,UltimateGadget Pro,clothing,Oniline,318.7,1442.79,16.01,342,Out of Stock,Dubai,Cash
+386,1/19/2025,1386,100386,InnoTech 3000,accessories,Oniline,362.97,802.69,30.71,865,Low Stock,Dubai,
+387,10/05/2025,1387,100387,EcoFriendly Tech,home goods,Oniline,928.85,922.73,,658,Low Stock,Dubai,Card
+388,11/22/2025,1388,100388,UltimateGadget Pro,accessories,Oniline,967.02,296.23,5.74,486,Out of Stock,Abu Dhabi,Card
+389,12/01/2025,1389,100389,SuperWidget 2000,home goods,Retail,514.54,344.64,12.75,689,In Stock,Abu Dhabi,Cash
+390,01/08/2026,1390,100390,GigaGadget 9000,appliances,Retail,853.52,1335.64,12.57,276,Out of Stock,Sharjah,Cash
+391,11/09/2025,1391,100391,TechSavvy 5000,,Oniline,315.15,1363.92,20.24,564,Low Stock,Sharjah,Online
+392,04/04/2025,1392,100392,PowerTech Max,home goods,Oniline,957.89,1342.15,40.95,394,Low Stock,Abu Dhabi,
+393,10/16/2025,1393,100393,,clothing,Retail,517.49,362.12,39.93,296,Out of Stock,Abu Dhabi,Card
+394,11/11/2025,1394,100394,MegaGizmo X,home goods,Retail,327.86,1252.83,43.19,345,Low Stock,,Online
+395,4/25/2025,1395,100395,InnoTech 3000,clothing,Oniline,769.64,356.48,4.01,538,Out of Stock,Dubai,Online
+396,09/02/2025,1396,100396,EcoFriendly Tech,appliances,Retail,348.85,1365.88,11.41,632,Low Stock,Dubai,Cash
+397,1/15/2025,1397,100397,InnoTech 3000,home goods,Retail,244.65,728.46,10.1,358,Low Stock,Sharjah,
+398,06/10/2025,1398,100398,InnoTech 3000,home goods,Retail,47.06,1043.67,27.76,642,In Stock,Abu Dhabi,Cash
+399,12/06/2025,1399,100399,MegaGizmo X,clothing,Retail,248.07,945.32,33.96,226,Out of Stock,Dubai,Online
+400,11/14/2025,1400,100400,GigaGadget 9000,home goods,Retail,178.71,1154.61,39.63,112,,Ajman,Online
+401,12/31/2025,1401,100401,,accessories,,475.05,205.29,47.48,260,Low Stock,Sharjah,Cash
+402,11/02/2025,1402,100402,EcoFriendly Tech,home goods,,297.44,1305.22,39.83,427,Low Stock,Ajman,Cash
+403,11/12/2025,1403,100403,,appliances,Oniline,317.11,809.53,11.36,293,In Stock,Ajman,
+404,07/08/2025,1404,100404,UltimateGadget Pro,clothing,Oniline,120.56,378.42,18.58,820,Out of Stock,Abu Dhabi,Online
+405,05/11/2025,1405,100405,InnoTech 3000,appliances,Oniline,123.05,1007.9,26.58,165,In Stock,Sharjah,Cash
+406,9/25/2025,1406,100406,SuperWidget 2000,,Retail,834.26,450.8,46.73,163,Out of Stock,Ajman,Card
+407,12/08/2025,1407,100407,PowerTech Max,accessories,Retail,74.38,209.62,0.53,722,In Stock,Abu Dhabi,Cash
+408,1/21/2025,1408,100408,PowerTech Max,electronics,Oniline,779.76,26.65,35.94,169,Low Stock,Sharjah,Online
+409,05/09/2025,1409,100409,MegaGizmo X,electronics,Retail,86.92,310.82,33.76,412,In Stock,Ajman,
+410,10/23/2025,1410,100410,PowerTech Max,clothing,Retail,587.43,641.24,0.18,475,Out of Stock,Sharjah,Card
+411,11/22/2025,1411,100411,SmartTech Elite,electronics,Retail,607.01,1237.82,,571,Low Stock,Dubai,Card
+412,5/30/2025,1412,100412,PowerTech Max,accessories,Retail,577.57,1461.06,32.88,653,In Stock,Abu Dhabi,Cash
+413,02/08/2026,1413,100413,InnoTech 3000,electronics,Retail,276.16,941.98,10.85,500,Out of Stock,,Online
+414,07/09/2025,1414,100414,MegaGizmo X,clothing,Oniline,941.25,492.81,5.35,377,Low Stock,Sharjah,Cash
+415,9/22/2025,1415,100415,InnoTech 3000,home goods,Retail,425.73,951.19,6.79,33,Low Stock,Sharjah,Online
+416,09/10/2025,1416,100416,MegaGizmo X,home goods,Retail,391.49,1450.97,29.03,257,In Stock,Abu Dhabi,Cash
+417,1/30/2025,1417,100417,GigaGadget 9000,appliances,Retail,12.83,680.14,20.43,72,Low Stock,Ajman,Card
+418,5/31/2025,1418,100418,SuperWidget 2000,home goods,,559.62,718.92,45.34,506,Out of Stock,Abu Dhabi,Cash
+419,10/23/2025,1419,100419,PowerTech Max,appliances,Oniline,511.21,509.5,32.51,702,Out of Stock,Abu Dhabi,Online
+420,11/05/2025,1420,100420,FutureTech 10000,clothing,Oniline,623.75,1470.68,,12,,Sharjah,Online
+421,12/15/2025,1421,100421,TechSavvy 5000,home goods,Retail,205.53,1461.87,19.09,450,In Stock,Abu Dhabi,Online
+422,02/05/2026,1422,100422,UltimateGadget Pro,clothing,Oniline,123.5,250.53,35.41,41,Out of Stock,Abu Dhabi,Card
+423,11/05/2025,1423,100423,TechSavvy 5000,clothing,Retail,621.33,1396.52,30.85,933,In Stock,Abu Dhabi,
+424,3/27/2026,1424,100424,EcoFriendly Tech,,Retail,898.25,187.59,5.64,223,Low Stock,Abu Dhabi,Card
+425,12/11/2025,1425,100425,FutureTech 10000,accessories,Retail,360.1,1163.22,47.47,934,Low Stock,Abu Dhabi,Card
+426,9/25/2025,1426,100426,TechSavvy 5000,appliances,Oniline,928.21,166.62,34.43,140,Low Stock,Dubai,Online
+427,3/20/2025,1427,100427,,electronics,Retail,256.19,903.13,0.11,495,Low Stock,Dubai,Cash
+428,08/09/2025,1428,100428,SmartTech Elite,electronics,Retail,82.13,488.07,43.92,313,In Stock,Ajman,Online
+429,12/15/2025,1429,100429,EcoFriendly Tech,clothing,Retail,831.86,1465.48,27.82,478,Low Stock,Abu Dhabi,Cash
+430,1/20/2025,1430,100430,SmartTech Elite,appliances,Retail,150.94,15.09,5.09,208,In Stock,Dubai,Cash
+431,08/12/2025,1431,100431,UltimateGadget Pro,home goods,,769.03,977.11,48.24,415,In Stock,Sharjah,Card
+432,01/03/2026,1432,100432,InnoTech 3000,electronics,Retail,614.09,525.06,40.99,454,In Stock,Sharjah,Online
+433,3/13/2025,1433,100433,FutureTech 10000,clothing,Retail,801.65,1428.49,,884,Out of Stock,Dubai,Online
+434,05/07/2025,1434,100434,SmartTech Elite,electronics,Oniline,773.59,1144.51,6.15,800,Low Stock,,Cash
+435,8/24/2025,1435,100435,GigaGadget 9000,appliances,Oniline,258.94,460.08,16.95,623,Low Stock,Abu Dhabi,Card
+436,3/15/2025,1436,100436,UltimateGadget Pro,accessories,Retail,644.1,1068.04,40.36,235,Out of Stock,Sharjah,Online
+437,11/30/2025,1437,100437,FutureTech 10000,appliances,Oniline,728.75,1342.51,3.04,370,Out of Stock,Sharjah,Cash
+438,11/07/2025,1438,100438,UltimateGadget Pro,electronics,Retail,908.11,1102.07,23.19,582,,Abu Dhabi,Card
+439,02/04/2026,1439,100439,SmartTech Elite,accessories,Retail,479.04,614.36,34.31,316,Out of Stock,Ajman,Cash
+440,02/03/2025,1440,100440,SmartTech Elite,electronics,Oniline,370.78,323.7,1.4,632,Out of Stock,Dubai,Card
+441,3/30/2025,1441,100441,InnoTech 3000,accessories,Retail,91.04,293.36,44.33,253,Low Stock,Sharjah,Cash
+442,3/17/2025,1442,100442,InnoTech 3000,appliances,Oniline,751.35,552.19,1.27,365,Out of Stock,Ajman,Online
+443,12/06/2025,1443,100443,PowerTech Max,accessories,Retail,846.86,320.26,30.4,651,Out of Stock,Abu Dhabi,Online
+444,06/02/2025,1444,100444,FutureTech 10000,electronics,Oniline,54.95,1086.93,5.49,108,Low Stock,Ajman,Cash
+445,12/31/2025,1445,100445,GigaGadget 9000,electronics,Retail,777.75,1384.29,37.18,83,Low Stock,Ajman,Cash
+446,3/29/2026,1446,100446,PowerTech Max,home goods,Retail,617.5,316.64,15.07,529,Low Stock,Ajman,
+447,03/05/2026,1447,100447,UltimateGadget Pro,clothing,Oniline,359.29,691.57,40.45,170,In Stock,Ajman,Card
+448,5/24/2025,1448,100448,GigaGadget 9000,appliances,Retail,535.65,605.49,22.58,430,Low Stock,Dubai,Card
+449,06/07/2025,1449,100449,FutureTech 10000,electronics,Oniline,481.34,909.1,14.23,27,In Stock,Dubai,Cash
+450,02/11/2026,1450,100450,PowerTech Max,home goods,,499,1178.94,0.1,343,In Stock,Abu Dhabi,Online
+451,10/14/2025,1451,100451,EcoFriendly Tech,,Retail,638.54,1145.46,35.8,22,Out of Stock,Sharjah,Cash
+452,3/25/2026,1452,100452,FutureTech 10000,accessories,Oniline,643.52,97.32,8.4,34,In Stock,Abu Dhabi,Card
+453,3/24/2025,1453,100453,SmartTech Elite,accessories,Retail,841.87,365.94,11.2,137,Out of Stock,,Cash
+454,03/08/2026,1454,100454,PowerTech Max,electronics,,199.72,880.64,45.98,357,In Stock,Sharjah,Online
+455,10/15/2025,1455,100455,EcoFriendly Tech,accessories,Retail,675.54,150.37,20.06,910,Low Stock,Ajman,Cash
+456,06/07/2025,1456,100456,InnoTech 3000,accessories,Retail,616.08,427.12,25.37,466,Low Stock,Ajman,Cash
+457,7/25/2025,1457,100457,SmartTech Elite,home goods,Oniline,391.96,886,39.85,998,Low Stock,Abu Dhabi,Cash
+458,6/30/2025,1458,100458,SmartTech Elite,electronics,Oniline,693.07,993.6,31.12,287,In Stock,Abu Dhabi,Card
+459,4/13/2025,1459,100459,UltimateGadget Pro,electronics,Retail,901.11,59.52,12.52,837,Out of Stock,Ajman,Card
+460,1/16/2026,1460,100460,PowerTech Max,clothing,Retail,577.2,880.84,48.18,411,Out of Stock,Ajman,Card
+461,6/18/2025,1461,100461,MegaGizmo X,accessories,Oniline,947.28,887.83,8.73,461,Low Stock,Ajman,Card
+462,10/25/2025,1462,100462,TechSavvy 5000,home goods,Retail,275.51,898.27,33.8,919,Low Stock,Ajman,Card
+463,2/19/2025,1463,100463,GigaGadget 9000,electronics,Retail,326.66,391.99,25.17,714,In Stock,Sharjah,Card
+464,8/23/2025,1464,100464,EcoFriendly Tech,accessories,,348.96,536.73,24.39,99,Low Stock,Dubai,Card
+465,3/30/2025,1465,100465,SuperWidget 2000,appliances,Retail,79.9,653.01,17.99,927,Low Stock,Abu Dhabi,Cash
+466,12/03/2025,1466,100466,SmartTech Elite,appliances,Retail,976.45,423.58,15.16,545,Low Stock,,
+467,6/13/2025,1467,100467,EcoFriendly Tech,accessories,Retail,14.53,1028.75,39.65,487,Low Stock,Sharjah,Online
+468,05/11/2025,1468,100468,InnoTech 3000,appliances,Retail,289.69,631.92,42.92,228,Low Stock,Abu Dhabi,Online
+469,2/13/2025,1469,100469,UltimateGadget Pro,clothing,Retail,201.63,307.31,47.12,897,In Stock,Abu Dhabi,Online
+470,02/09/2026,1470,100470,EcoFriendly Tech,electronics,Retail,392.88,517.02,15.59,743,Out of Stock,Ajman,Online
+471,3/30/2025,1471,100471,PowerTech Max,accessories,Retail,865.96,58.54,36.82,169,Out of Stock,Sharjah,Cash
+472,4/24/2025,1472,100472,UltimateGadget Pro,accessories,Oniline,159.98,139.84,10.19,93,Out of Stock,Ajman,Online
+473,3/13/2025,1473,100473,GigaGadget 9000,home goods,Oniline,960.79,785.45,48.03,608,In Stock,Dubai,Card
+474,5/26/2025,1474,100474,FutureTech 10000,accessories,Retail,375.24,92.84,45.94,936,Out of Stock,Dubai,Card
+475,2/13/2026,1475,100475,,clothing,Retail,869.77,125.94,30.82,320,Out of Stock,Sharjah,Online
+476,08/01/2025,1476,100476,FutureTech 10000,clothing,Oniline,554.65,588.76,15.76,333,Low Stock,Sharjah,Cash
+477,5/19/2025,1477,100477,SuperWidget 2000,home goods,Retail,384.88,1147.36,47.41,352,In Stock,Abu Dhabi,Card
+478,9/27/2025,1478,100478,MegaGizmo X,appliances,Retail,41.46,1246.76,1.28,184,In Stock,Ajman,Online
+479,6/21/2025,1479,100479,EcoFriendly Tech,appliances,Retail,270.27,1384.47,,9,Low Stock,Ajman,Online
+480,1/30/2025,1480,100480,SuperWidget 2000,home goods,Retail,561.86,386.87,38.24,981,Low Stock,,Card
+481,7/13/2025,1481,100481,PowerTech Max,clothing,Oniline,42.37,368.13,34.36,650,Low Stock,,Online
+482,4/25/2025,1482,100482,InnoTech 3000,clothing,Oniline,284.86,413.7,18.71,942,In Stock,Dubai,Card
+483,2/20/2025,1483,100483,SmartTech Elite,accessories,Oniline,566.04,424.57,41.9,910,Low Stock,Sharjah,Cash
+484,12/25/2025,1484,100484,GigaGadget 9000,accessories,Retail,268.17,183.16,23.9,340,Out of Stock,Ajman,Online
+485,02/04/2026,1485,100485,UltimateGadget Pro,home goods,Retail,500.18,133.52,47.06,152,Out of Stock,Sharjah,Cash
+486,11/13/2025,1486,100486,GigaGadget 9000,clothing,Retail,435.55,634.21,,58,In Stock,Sharjah,Card
+487,8/30/2025,1487,100487,TechSavvy 5000,clothing,Retail,625.29,442.19,,904,In Stock,Dubai,Online
+488,1/21/2025,1488,100488,EcoFriendly Tech,accessories,Oniline,961.15,644.71,27.33,128,Out of Stock,Sharjah,Cash
+489,10/19/2025,1489,100489,InnoTech 3000,electronics,Oniline,58.56,365.9,30.5,323,,Sharjah,Cash
+490,5/22/2025,1490,100490,PowerTech Max,accessories,Retail,224.4,299.78,31.29,226,Out of Stock,Dubai,Cash
+491,3/23/2025,1491,100491,SuperWidget 2000,electronics,Retail,825.25,1455.85,33.6,797,Out of Stock,Ajman,Card
+492,09/06/2025,1492,100492,FutureTech 10000,home goods,Oniline,14.2,1402.18,,851,Low Stock,Sharjah,Cash
+493,01/11/2025,1493,100493,UltimateGadget Pro,appliances,Retail,480.95,541.71,37.01,621,In Stock,Ajman,Card
+494,9/19/2025,1494,100494,,accessories,Oniline,278.63,370.93,40.04,521,Out of Stock,Sharjah,Online
+495,5/17/2025,1495,100495,UltimateGadget Pro,accessories,Retail,336.71,386.18,37.19,268,Low Stock,Dubai,Cash
+496,1/23/2025,1496,100496,GigaGadget 9000,accessories,,297.76,375.28,27.8,498,Out of Stock,Dubai,Card
+497,9/24/2025,1497,100497,,electronics,Retail,103.64,1295.42,24.37,955,Low Stock,Abu Dhabi,Online
+498,10/19/2025,1498,100498,FutureTech 10000,home goods,Retail,761.74,1417.12,21.66,773,Low Stock,Dubai,
+499,09/06/2025,1499,100499,SmartTech Elite,clothing,Retail,79.25,356.76,9.69,354,Out of Stock,Dubai,Online
+500,06/07/2025,1500,100500,TechSavvy 5000,electronics,Oniline,502.98,256.99,,485,In Stock,Dubai,Online
+501,1/18/2025,1501,100501,GigaGadget 9000,appliances,Oniline,772.91,793.3,,640,Low Stock,Abu Dhabi,Online
+502,6/15/2025,1502,100502,TechSavvy 5000,home goods,Retail,797.74,720.63,,556,Out of Stock,Abu Dhabi,Online
+503,01/04/2025,1503,100503,UltimateGadget Pro,electronics,,667.45,611.63,41.43,86,Out of Stock,,Cash
+504,11/20/2025,1504,100504,SmartTech Elite,appliances,Oniline,268.85,659.8,21.09,500,Out of Stock,Ajman,
+505,12/19/2025,1505,100505,SmartTech Elite,accessories,Retail,140.2,709.65,23.59,159,In Stock,Sharjah,Online
+506,12/15/2025,1506,100506,UltimateGadget Pro,accessories,Retail,390.55,116.38,9.95,468,Low Stock,Dubai,Cash
+507,01/09/2026,1507,100507,FutureTech 10000,,Retail,453.79,1330.65,17.42,704,Low Stock,Dubai,Cash
+508,7/23/2025,1508,100508,SmartTech Elite,clothing,Retail,391.55,966.63,42.6,307,In Stock,,Cash
+509,8/24/2025,1509,100509,SmartTech Elite,home goods,Oniline,876.69,493.48,42.76,429,In Stock,Abu Dhabi,Online
+510,1/15/2026,1510,100510,SmartTech Elite,accessories,Oniline,914.36,201.61,,313,Out of Stock,Ajman,Online
+511,04/11/2025,1511,100511,,home goods,Oniline,464.36,776.49,30.46,269,Out of Stock,Abu Dhabi,Cash
+512,5/21/2025,1512,100512,EcoFriendly Tech,electronics,Oniline,769.98,878.58,35.68,681,Low Stock,Sharjah,Online
+513,5/25/2025,1513,100513,MegaGizmo X,,Retail,565.07,342.27,37.14,450,Low Stock,Abu Dhabi,Card
+514,01/11/2026,1514,100514,SmartTech Elite,clothing,Retail,395.63,1244.18,15.66,30,Out of Stock,,Card
+515,7/14/2025,1515,100515,PowerTech Max,appliances,Retail,443.66,796.29,35.57,178,In Stock,Ajman,Cash
+516,01/06/2026,1516,100516,SuperWidget 2000,clothing,Oniline,725.76,129.63,31.24,80,Low Stock,Abu Dhabi,Online
+517,4/29/2025,1517,100517,GigaGadget 9000,accessories,Oniline,15.81,86.17,39.45,329,Out of Stock,Abu Dhabi,Cash
+518,02/10/2025,1518,100518,UltimateGadget Pro,home goods,Retail,993.56,606.28,33.6,668,Low Stock,Dubai,Online
+519,11/18/2025,1519,100519,SmartTech Elite,clothing,Retail,818.49,331.61,0.92,534,Out of Stock,Sharjah,Cash
+520,5/21/2025,1520,100520,TechSavvy 5000,clothing,Retail,295.31,902.08,,886,Low Stock,Abu Dhabi,Cash
+521,7/19/2025,1521,100521,MegaGizmo X,home goods,Retail,531.64,1458.52,18.42,943,,Abu Dhabi,Online
+522,5/14/2025,1522,100522,SmartTech Elite,home goods,Retail,973.65,1282.99,,174,Low Stock,Ajman,Cash
+523,2/21/2025,1523,100523,PowerTech Max,home goods,Oniline,459.03,1469.63,44.92,441,In Stock,Abu Dhabi,Card
+524,03/03/2026,1524,100524,InnoTech 3000,home goods,Retail,261.89,1471.15,25.37,128,Out of Stock,Abu Dhabi,Card
+525,11/21/2025,1525,100525,GigaGadget 9000,home goods,Retail,211.81,403.86,13.85,148,In Stock,Ajman,Card
+526,10/11/2025,1526,100526,PowerTech Max,appliances,Oniline,665.3,671.48,42.28,826,In Stock,Sharjah,Online
+527,06/06/2025,1527,100527,InnoTech 3000,electronics,Retail,714,1485.53,2.03,315,Low Stock,Ajman,Card
+528,7/13/2025,1528,100528,GigaGadget 9000,appliances,Retail,31.77,489.33,10.35,268,Low Stock,Abu Dhabi,Online
+529,03/03/2025,1529,100529,MegaGizmo X,accessories,Oniline,648.61,114.75,19.11,136,Out of Stock,Ajman,Card
+530,03/01/2026,1530,100530,FutureTech 10000,home goods,Retail,967.1,1044.61,14.96,196,Low Stock,Dubai,Online
+531,09/06/2025,1531,100531,SmartTech Elite,accessories,Retail,870.48,63.09,5.18,617,Low Stock,Ajman,Card
+532,1/31/2026,1532,100532,FutureTech 10000,clothing,Retail,928,458.42,25.59,82,Low Stock,Sharjah,Online
+533,01/07/2026,1533,100533,FutureTech 10000,home goods,,908.02,1252.5,26.52,440,Out of Stock,Ajman,Cash
+534,7/29/2025,1534,100534,MegaGizmo X,home goods,Retail,746.14,803.27,11.16,906,In Stock,Ajman,Cash
+535,11/17/2025,1535,100535,TechSavvy 5000,electronics,,311.65,153.19,1.85,42,Out of Stock,Sharjah,Cash
+536,5/16/2025,1536,100536,EcoFriendly Tech,appliances,Oniline,652.28,1006.84,22.02,421,Low Stock,Sharjah,Online
+537,7/28/2025,1537,100537,PowerTech Max,home goods,Retail,667.02,374.55,41.55,776,Low Stock,Sharjah,Cash
+538,01/09/2025,1538,100538,SmartTech Elite,home goods,Oniline,906.03,158.61,22.81,178,In Stock,Abu Dhabi,Online
+539,9/20/2025,1539,100539,GigaGadget 9000,electronics,,58.59,783.74,7.22,496,Low Stock,Dubai,Card
+540,8/18/2025,1540,100540,FutureTech 10000,accessories,Retail,697.69,1393.88,13.86,851,In Stock,Abu Dhabi,Cash
+541,02/06/2026,1541,100541,EcoFriendly Tech,electronics,Oniline,84.32,1356.56,17.75,538,Low Stock,,
+542,08/06/2025,1542,100542,SuperWidget 2000,,Oniline,368.89,502.67,33.56,286,In Stock,Abu Dhabi,Card
+543,3/15/2026,1543,100543,EcoFriendly Tech,home goods,,991.54,682.69,18.58,920,Low Stock,Abu Dhabi,Card
+544,02/11/2026,1544,100544,PowerTech Max,clothing,Retail,329.99,335.83,36.21,449,Out of Stock,Sharjah,Online
+545,5/16/2025,1545,100545,PowerTech Max,home goods,Oniline,27.18,868.84,21.12,357,In Stock,Ajman,Card
+546,09/05/2025,1546,100546,SmartTech Elite,home goods,Retail,257.75,1444.82,8.54,422,,Ajman,Card
+547,05/09/2025,1547,100547,SuperWidget 2000,,Oniline,962.89,496.16,7.41,62,In Stock,Dubai,
+548,1/17/2025,1548,100548,MegaGizmo X,electronics,Retail,422.81,266.54,31.48,493,Out of Stock,,Cash
+549,11/27/2025,1549,100549,EcoFriendly Tech,electronics,Oniline,77.53,1204.15,44.78,262,Low Stock,Ajman,Online
+550,02/09/2026,1550,100550,UltimateGadget Pro,appliances,Oniline,282.48,1038.06,,494,Out of Stock,Dubai,Online
+551,12/06/2025,1551,100551,GigaGadget 9000,home goods,Oniline,780.16,584.95,32.84,881,,Dubai,Online
+552,06/09/2025,1552,100552,,electronics,Oniline,474.28,1243.96,34.47,366,In Stock,Ajman,Cash
+553,09/05/2025,1553,100553,PowerTech Max,accessories,,150.63,456.68,21.73,325,In Stock,Dubai,Online
+554,04/12/2025,1554,100554,SuperWidget 2000,electronics,Oniline,128.82,472.42,49.46,151,Out of Stock,Ajman,Online
+555,02/10/2026,1555,100555,EcoFriendly Tech,,Retail,381.72,203.15,41.71,597,,Ajman,Card
+556,10/17/2025,1556,100556,EcoFriendly Tech,home goods,,193.67,259.73,39.28,520,In Stock,Dubai,Card
+557,01/01/2026,1557,100557,TechSavvy 5000,accessories,Retail,613.41,919.99,,635,Low Stock,Sharjah,Online
+558,06/09/2025,1558,100558,FutureTech 10000,accessories,Retail,620.87,757.26,48.13,879,Low Stock,Dubai,Cash
+559,1/22/2026,1559,100559,PowerTech Max,accessories,Oniline,942.11,441.85,36.46,363,Low Stock,Abu Dhabi,Online
+560,2/26/2026,1560,100560,EcoFriendly Tech,accessories,Oniline,972.97,1437.52,48.88,285,In Stock,Ajman,Cash
+561,05/03/2025,1561,100561,PowerTech Max,clothing,Retail,891.53,1356.44,43.28,679,Low Stock,Abu Dhabi,Online
+562,5/27/2025,1562,100562,GigaGadget 9000,appliances,Oniline,261.5,120.29,9.98,52,Out of Stock,Dubai,
+563,03/01/2026,1563,100563,TechSavvy 5000,clothing,Retail,869.44,42.95,25.59,185,In Stock,Ajman,Card
+564,12/27/2025,1564,100564,SuperWidget 2000,,Retail,868.83,1231.79,12.16,972,Out of Stock,Dubai,Cash
+565,7/25/2025,1565,100565,UltimateGadget Pro,accessories,Oniline,195.39,369.87,20.56,889,Low Stock,Ajman,Card
+566,12/05/2025,1566,100566,MegaGizmo X,electronics,Oniline,619.42,724.46,19.52,63,Out of Stock,Dubai,Card
+567,11/19/2025,1567,100567,InnoTech 3000,accessories,Oniline,316,977.79,5.34,952,In Stock,Abu Dhabi,Online
+568,12/24/2025,1568,100568,FutureTech 10000,electronics,Oniline,621.57,1117.11,31.73,657,In Stock,Sharjah,Cash
+569,03/08/2025,1569,100569,FutureTech 10000,home goods,Oniline,808.83,852.94,,366,Low Stock,Ajman,Cash
+570,1/24/2025,1570,100570,SmartTech Elite,,Retail,872.57,372.26,34.5,74,,Abu Dhabi,Cash
+571,02/05/2026,1571,100571,UltimateGadget Pro,appliances,Retail,140.76,112.52,14.6,139,Out of Stock,Ajman,Online
+572,09/10/2025,1572,100572,,electronics,Oniline,26.52,297.58,48.37,957,Low Stock,Dubai,
+573,8/27/2025,1573,100573,MegaGizmo X,,Retail,857.31,246.15,4.37,527,In Stock,Abu Dhabi,Online
+574,12/16/2025,1574,100574,MegaGizmo X,clothing,Retail,210.42,1372.87,,128,In Stock,Abu Dhabi,Online
+575,01/05/2026,1575,100575,MegaGizmo X,home goods,Retail,552.06,1357.93,6.85,866,Low Stock,Ajman,Card
+576,11/20/2025,1576,100576,,appliances,Oniline,899.07,510,20.62,453,Out of Stock,Ajman,Card
+577,08/05/2025,1577,100577,InnoTech 3000,electronics,Oniline,367.94,32.09,35.34,156,,Abu Dhabi,Online
+578,1/17/2025,1578,100578,UltimateGadget Pro,clothing,,80.1,883.94,25.91,430,Low Stock,Ajman,Card
+579,3/17/2026,1579,100579,FutureTech 10000,clothing,Oniline,664.19,1046.79,28.27,494,In Stock,,Card
+580,6/25/2025,1580,100580,UltimateGadget Pro,appliances,Oniline,950.46,300.61,4.39,811,In Stock,Ajman,Cash
+581,08/06/2025,1581,100581,UltimateGadget Pro,clothing,Oniline,81.18,1303.88,45.91,655,Out of Stock,Sharjah,Card
+582,6/26/2025,1582,100582,SuperWidget 2000,electronics,Retail,446.11,593.66,44.47,563,Out of Stock,Dubai,Online
+583,1/28/2025,1583,100583,SmartTech Elite,home goods,Oniline,157.16,649.6,19.76,138,In Stock,Abu Dhabi,Cash
+584,6/26/2025,1584,100584,InnoTech 3000,home goods,Oniline,382.99,256.11,45.56,596,Low Stock,Ajman,Cash
+585,8/29/2025,1585,100585,,electronics,Retail,244.68,1354.22,5.59,479,Low Stock,Ajman,Online
+586,3/15/2026,1586,100586,PowerTech Max,electronics,Retail,953.23,588.41,40.62,277,Low Stock,Dubai,Online
+587,2/13/2025,1587,100587,UltimateGadget Pro,electronics,Retail,267.85,1294.65,35.58,437,Low Stock,Sharjah,Card
+588,03/01/2025,1588,100588,EcoFriendly Tech,electronics,Retail,180.12,1266.32,25.67,680,Out of Stock,Abu Dhabi,Online
+589,4/19/2025,1589,100589,,clothing,Oniline,118.28,859.79,,483,Low Stock,Dubai,Online
+590,6/22/2025,1590,100590,SmartTech Elite,appliances,Oniline,704.38,1101.6,12.32,864,In Stock,Ajman,Card
+591,12/18/2025,1591,100591,,clothing,Retail,520.74,1386.38,45.72,577,Out of Stock,Sharjah,Cash
+592,01/12/2026,1592,100592,TechSavvy 5000,clothing,Retail,420.37,944.73,42.2,666,Out of Stock,Sharjah,
+593,03/06/2025,1593,100593,MegaGizmo X,accessories,Retail,119.87,1470.35,18.79,180,Low Stock,Sharjah,Cash
+594,12/22/2025,1594,100594,InnoTech 3000,home goods,Oniline,82.36,1010.2,11.41,925,In Stock,Ajman,Card
+595,3/28/2025,1595,100595,,appliances,Oniline,178.51,410.44,39.03,719,In Stock,Dubai,Online
+596,01/10/2026,1596,100596,SuperWidget 2000,electronics,Oniline,580.23,1397.57,18.27,2,,Sharjah,Online
+597,05/06/2025,1597,100597,UltimateGadget Pro,home goods,Oniline,376.88,955.08,24.01,163,Low Stock,Ajman,Cash
+598,6/21/2025,1598,100598,PowerTech Max,accessories,Oniline,388.03,325.88,5.26,709,Out of Stock,Sharjah,Cash
+599,03/07/2026,1599,100599,SmartTech Elite,clothing,Oniline,440.97,61.54,36.16,564,In Stock,Ajman,Cash
+600,10/12/2025,1600,100600,GigaGadget 9000,accessories,Retail,350.97,1261.08,7.3,589,In Stock,Sharjah,Cash
+601,06/04/2025,1601,100601,MegaGizmo X,appliances,Retail,988.9,1302.03,,675,,Dubai,Cash
+602,2/20/2026,1602,100602,,home goods,Retail,858.49,350.38,39.52,107,Out of Stock,Abu Dhabi,Online
+603,10/01/2025,1603,100603,GigaGadget 9000,home goods,Oniline,254.11,1145.86,16.6,602,In Stock,Dubai,Card
+604,03/09/2026,1604,100604,,accessories,Retail,441.71,1129.5,22.42,743,Low Stock,Dubai,Cash
+605,03/08/2025,1605,100605,InnoTech 3000,home goods,Oniline,335.37,1001.34,33.73,577,,Abu Dhabi,Online
+606,04/01/2025,1606,100606,PowerTech Max,electronics,Retail,669,299.74,34.98,133,Low Stock,Dubai,Card
+607,5/17/2025,1607,100607,SuperWidget 2000,,Oniline,797.05,601.4,39.52,789,Low Stock,Dubai,Cash
+608,06/10/2025,1608,100608,MegaGizmo X,appliances,Oniline,342.77,839.68,5.17,520,,Ajman,Online
+609,07/10/2025,1609,100609,PowerTech Max,clothing,,150.82,171.61,26.42,664,Low Stock,Ajman,Cash
+610,09/05/2025,1610,100610,TechSavvy 5000,accessories,Oniline,259.48,288.67,0.39,411,In Stock,Ajman,Cash
+611,8/24/2025,1611,100611,TechSavvy 5000,appliances,Oniline,411.26,515.42,2.24,832,Low Stock,Dubai,Online
+612,12/13/2025,1612,100612,SuperWidget 2000,clothing,Retail,592.11,1391.18,15.05,256,In Stock,Sharjah,Cash
+613,8/27/2025,1613,100613,GigaGadget 9000,electronics,Oniline,537.96,1265.6,7.77,270,Low Stock,Dubai,Cash
+614,11/22/2025,1614,100614,TechSavvy 5000,appliances,Retail,183.72,651.44,13.24,97,Low Stock,Abu Dhabi,Online
+615,02/02/2026,1615,100615,GigaGadget 9000,accessories,Oniline,327.31,1273.93,,135,Low Stock,Sharjah,
+616,02/10/2025,1616,100616,TechSavvy 5000,appliances,Retail,453.43,588.3,46.55,803,Low Stock,Sharjah,
+617,2/28/2026,1617,100617,SmartTech Elite,electronics,Oniline,448.19,711.31,23.36,53,Low Stock,Dubai,Cash
+618,1/27/2026,1618,100618,SmartTech Elite,electronics,Retail,317.38,806.85,32.25,294,Low Stock,Dubai,
+619,7/29/2025,1619,100619,TechSavvy 5000,electronics,Retail,940.2,235.29,28.6,320,Out of Stock,Abu Dhabi,Online
+620,04/06/2025,1620,100620,SmartTech Elite,appliances,Retail,350.01,1030.69,8.11,50,Low Stock,Ajman,Cash
+621,05/09/2025,1621,100621,UltimateGadget Pro,home goods,Retail,652.47,337.82,22.22,1,Low Stock,Dubai,Cash
+622,9/22/2025,1622,100622,FutureTech 10000,clothing,Oniline,224.52,775.54,24.14,889,Low Stock,,Online
+623,12/31/2025,1623,100623,InnoTech 3000,appliances,Retail,508.04,962.4,16.59,723,Low Stock,Abu Dhabi,Card
+624,1/22/2026,1624,100624,TechSavvy 5000,clothing,Retail,225.47,992.19,43.1,479,Out of Stock,Abu Dhabi,Card
+625,2/20/2026,1625,100625,SmartTech Elite,accessories,Retail,963.06,769.85,16.43,127,In Stock,Abu Dhabi,Card
+626,6/27/2025,1626,100626,MegaGizmo X,,Retail,160.67,778.41,15.39,967,Low Stock,Sharjah,Cash
+627,3/27/2026,1627,100627,InnoTech 3000,home goods,Oniline,629.59,553.99,48.81,203,In Stock,Sharjah,Card
+628,01/12/2026,1628,100628,GigaGadget 9000,clothing,Oniline,52.76,64.12,38.54,295,Out of Stock,Ajman,Cash
+629,3/20/2026,1629,100629,TechSavvy 5000,home goods,Oniline,149.39,119.98,20.05,338,In Stock,Dubai,Online
+630,8/18/2025,1630,100630,,electronics,Retail,610.59,300.71,2.19,603,Out of Stock,Ajman,Card
+631,11/04/2025,1631,100631,PowerTech Max,clothing,Retail,160.6,780.1,23.74,170,Low Stock,Ajman,Cash
+632,1/22/2026,1632,100632,,clothing,Oniline,472.12,1007.65,19.77,724,Out of Stock,Sharjah,Card
+633,2/21/2026,1633,100633,EcoFriendly Tech,electronics,Retail,438.61,903.51,45.02,460,Out of Stock,Abu Dhabi,Cash
+634,02/02/2026,1634,100634,SuperWidget 2000,home goods,Retail,19.81,719,44.21,682,Low Stock,Dubai,Online
+635,4/16/2025,1635,100635,,accessories,Oniline,787.18,297.45,35.22,584,In Stock,Dubai,Cash
+636,03/09/2026,1636,100636,SuperWidget 2000,accessories,Oniline,890.45,1280.64,33.01,162,Low Stock,Dubai,Card
+637,9/21/2025,1637,100637,SmartTech Elite,,Retail,684.21,1244.87,0.67,224,Out of Stock,Ajman,Online
+638,1/14/2025,1638,100638,MegaGizmo X,electronics,Oniline,699.92,246.86,1.12,455,Low Stock,,Online
+639,4/26/2025,1639,100639,GigaGadget 9000,home goods,Oniline,738.22,28.92,16.77,981,Low Stock,Dubai,Cash
+640,08/11/2025,1640,100640,MegaGizmo X,clothing,Retail,729.1,584.98,34.76,472,In Stock,Ajman,Online
+641,11/16/2025,1641,100641,TechSavvy 5000,home goods,Oniline,284.44,51.47,34.95,864,,Ajman,Online
+642,12/21/2025,1642,100642,SmartTech Elite,appliances,Retail,519.69,1461.14,35.49,894,In Stock,Dubai,Card
+643,4/26/2025,1643,100643,MegaGizmo X,,Retail,548.29,40.49,6.23,320,In Stock,Dubai,Card
+644,06/07/2025,1644,100644,InnoTech 3000,clothing,Retail,953.28,1275.01,30.63,90,In Stock,Abu Dhabi,Card
+645,8/16/2025,1645,100645,,,Oniline,73.4,863.53,0.2,88,Low Stock,Abu Dhabi,Card
+646,12/31/2025,1646,100646,MegaGizmo X,appliances,Retail,879.18,139.53,12.01,983,Out of Stock,Abu Dhabi,Cash
+647,3/20/2025,1647,100647,MegaGizmo X,,Oniline,678.5,322.73,18.72,216,Out of Stock,Abu Dhabi,Cash
+648,2/26/2026,1648,100648,SuperWidget 2000,home goods,Oniline,386.54,491.95,37.76,188,In Stock,Ajman,Card
+649,3/27/2025,1649,100649,SmartTech Elite,,Retail,821.51,1411.14,29.97,989,Out of Stock,Dubai,Online
+650,08/01/2025,1650,100650,MegaGizmo X,clothing,Retail,953.69,83.87,43.88,671,Low Stock,Abu Dhabi,Cash
+651,07/03/2025,1651,100651,SuperWidget 2000,home goods,Oniline,291.23,427.88,35.99,901,In Stock,Dubai,Cash
+652,11/10/2025,1652,100652,EcoFriendly Tech,appliances,Oniline,763.82,779.08,14.34,812,Low Stock,Sharjah,Cash
+653,5/23/2025,1653,100653,SuperWidget 2000,accessories,Retail,30.17,1380.62,22.53,601,Out of Stock,Sharjah,Online
+654,11/13/2025,1654,100654,SmartTech Elite,home goods,Retail,266.96,1224.61,,197,In Stock,Sharjah,Online
+655,02/12/2026,1655,100655,TechSavvy 5000,appliances,Oniline,558.75,1164.24,11.99,683,Low Stock,Sharjah,Online
+656,09/09/2025,1656,100656,MegaGizmo X,home goods,Oniline,763.17,176.81,10.79,21,In Stock,Abu Dhabi,Card
+657,8/19/2025,1657,100657,EcoFriendly Tech,accessories,Retail,220.21,641.53,28.8,642,In Stock,Sharjah,Cash
+658,11/21/2025,1658,100658,MegaGizmo X,clothing,Oniline,567.35,1357,13.08,275,Out of Stock,Sharjah,Online
+659,08/12/2025,1659,100659,GigaGadget 9000,clothing,Oniline,228.46,1280.41,7.99,161,Low Stock,Dubai,Online
+660,12/23/2025,1660,100660,TechSavvy 5000,,Oniline,510.25,867.91,17.56,863,Low Stock,Sharjah,Card
+661,8/17/2025,1661,100661,InnoTech 3000,home goods,Oniline,849.8,1048.03,10.72,77,Out of Stock,Ajman,Cash
+662,10/12/2025,1662,100662,PowerTech Max,accessories,Retail,744.37,977.5,47.22,53,Low Stock,Dubai,Online
+663,7/23/2025,1663,100663,PowerTech Max,accessories,Retail,195.94,860.02,3.02,632,Out of Stock,Sharjah,Cash
+664,8/13/2025,1664,100664,InnoTech 3000,home goods,Oniline,743.57,755.91,27.36,929,In Stock,Sharjah,Cash
+665,5/26/2025,1665,100665,SuperWidget 2000,electronics,Retail,485.58,279.01,,671,Low Stock,Abu Dhabi,Card
+666,9/26/2025,1666,100666,SmartTech Elite,,Retail,910.03,1291.76,48.37,390,Out of Stock,Sharjah,Card
+667,06/04/2025,1667,100667,GigaGadget 9000,appliances,Retail,356.42,344.93,15.29,365,In Stock,Ajman,Cash
+668,4/25/2025,1668,100668,TechSavvy 5000,accessories,Retail,932.12,624.96,48.94,582,In Stock,Ajman,Card
+669,02/04/2025,1669,100669,EcoFriendly Tech,home goods,,627.72,777.92,14.6,45,Out of Stock,Abu Dhabi,Cash
+670,10/22/2025,1670,100670,SuperWidget 2000,appliances,Retail,194.25,1403.48,44.75,678,Out of Stock,Abu Dhabi,Card
+671,9/18/2025,1671,100671,MegaGizmo X,appliances,Oniline,626.24,893.26,12.72,404,Out of Stock,Abu Dhabi,Cash
+672,10/31/2025,1672,100672,,accessories,Retail,365.61,531.16,31.38,520,In Stock,Dubai,Cash
+673,12/08/2025,1673,100673,PowerTech Max,electronics,Retail,752.87,443.6,30.03,603,,,
+674,4/19/2025,1674,100674,SmartTech Elite,accessories,,477.71,59.87,8.21,525,Out of Stock,Abu Dhabi,Cash
+675,5/31/2025,1675,100675,MegaGizmo X,electronics,,613.98,287.82,27.69,544,Out of Stock,Ajman,Card
+676,2/18/2025,1676,100676,TechSavvy 5000,electronics,Oniline,409.22,732.09,47,677,Out of Stock,Dubai,Card
+677,3/27/2026,1677,100677,GigaGadget 9000,electronics,Oniline,34.55,1195.66,25.82,800,In Stock,Dubai,Card
+678,4/30/2025,1678,100678,TechSavvy 5000,home goods,Oniline,630.63,1168.58,2.2,612,Low Stock,Dubai,Card
+679,3/30/2026,1679,100679,SuperWidget 2000,clothing,Retail,776.94,315.77,,603,Low Stock,Sharjah,Card
+680,6/30/2025,1680,100680,SmartTech Elite,electronics,Retail,252.58,166.42,49.29,550,In Stock,Sharjah,Cash
+681,1/27/2026,1681,100681,SuperWidget 2000,accessories,Retail,791.53,140.95,26.29,727,Low Stock,Dubai,Card
+682,08/02/2025,1682,100682,TechSavvy 5000,clothing,Oniline,856.65,536.81,8.24,972,Out of Stock,Ajman,Online
+683,6/29/2025,1683,100683,UltimateGadget Pro,appliances,Retail,451.32,850.11,34.18,833,In Stock,Abu Dhabi,Card
+684,07/10/2025,1684,100684,SuperWidget 2000,accessories,Oniline,891.21,1188.41,2.18,531,Low Stock,Dubai,Card
+685,02/10/2025,1685,100685,EcoFriendly Tech,appliances,Retail,175.48,750.37,0.81,767,In Stock,Dubai,Card
+686,7/17/2025,1686,100686,SmartTech Elite,home goods,Retail,239.16,458.79,,434,In Stock,Ajman,Card
+687,11/22/2025,1687,100687,SmartTech Elite,electronics,Oniline,285.96,733.55,48.41,861,Low Stock,Abu Dhabi,Online
+688,4/15/2025,1688,100688,SuperWidget 2000,accessories,Oniline,599.84,608.31,26.4,11,Out of Stock,Dubai,Cash
+689,02/06/2026,1689,100689,PowerTech Max,electronics,Retail,78.25,477.68,36.52,964,In Stock,,Cash
+690,8/22/2025,1690,100690,,accessories,Oniline,578.42,1390.14,34.64,235,In Stock,Abu Dhabi,Online
+691,7/30/2025,1691,100691,PowerTech Max,electronics,Retail,800.97,800.62,5.02,469,Low Stock,Ajman,Card
+692,2/14/2026,1692,100692,UltimateGadget Pro,electronics,Retail,685.26,530.35,30.86,186,Out of Stock,,Online
+693,5/24/2025,1693,100693,SmartTech Elite,home goods,Oniline,12.93,159.79,21.81,185,Low Stock,Ajman,Card
+694,6/26/2025,1694,100694,TechSavvy 5000,accessories,Retail,23.07,53.88,12.77,365,In Stock,Abu Dhabi,Online
+695,12/24/2025,1695,100695,TechSavvy 5000,accessories,Retail,252.2,1023.94,14.67,465,Out of Stock,Abu Dhabi,
+696,10/07/2025,1696,100696,GigaGadget 9000,accessories,Retail,786.47,279.75,29.4,866,Low Stock,,Cash
+697,05/06/2025,1697,100697,PowerTech Max,appliances,Retail,788.36,387.43,3.57,468,Out of Stock,,Card
+698,4/14/2025,1698,100698,TechSavvy 5000,electronics,Oniline,687.97,498.86,5.5,606,Low Stock,Abu Dhabi,
+699,08/04/2025,1699,100699,FutureTech 10000,accessories,Retail,151.62,257.61,25.23,898,In Stock,Dubai,Online
+700,4/20/2025,1700,100700,EcoFriendly Tech,electronics,Retail,72.2,468.41,2.37,513,Low Stock,Abu Dhabi,Online
+701,6/28/2025,1701,100701,InnoTech 3000,home goods,Oniline,152.06,1370,36.98,383,,Sharjah,Cash
+702,07/08/2025,1702,100702,InnoTech 3000,electronics,Oniline,702.02,1299.62,17.39,695,Out of Stock,Dubai,Online
+703,03/06/2025,1703,100703,EcoFriendly Tech,accessories,Oniline,495.77,1463.91,45.81,346,,Abu Dhabi,Card
+704,03/06/2025,1704,100704,FutureTech 10000,clothing,Retail,351.13,1064.08,41.56,974,Low Stock,Abu Dhabi,Cash
+705,8/17/2025,1705,100705,EcoFriendly Tech,appliances,Oniline,442.05,1204.68,34.7,315,Out of Stock,Sharjah,Card
+706,8/23/2025,1706,100706,FutureTech 10000,clothing,Oniline,62.25,1218.64,31.81,226,Out of Stock,Sharjah,Online
+707,11/21/2025,1707,100707,EcoFriendly Tech,home goods,Oniline,38.56,470.37,40.84,3,In Stock,Sharjah,
+708,12/26/2025,1708,100708,FutureTech 10000,home goods,Retail,527.01,506.2,13.69,54,Out of Stock,Ajman,Online
+709,05/04/2025,1709,100709,InnoTech 3000,clothing,Retail,823.21,939.81,2.18,65,Low Stock,Sharjah,Cash
+710,12/06/2025,1710,100710,UltimateGadget Pro,clothing,Retail,788.2,927.19,36.79,962,Out of Stock,Dubai,Online
+711,8/26/2025,1711,100711,GigaGadget 9000,home goods,Retail,220.95,687.87,49.92,195,In Stock,Sharjah,Card
+712,11/14/2025,1712,100712,FutureTech 10000,home goods,Oniline,76.84,797.39,,528,Out of Stock,Ajman,Card
+713,8/26/2025,1713,100713,SmartTech Elite,clothing,Retail,968.41,1360.71,31.89,351,Low Stock,Ajman,Cash
+714,03/07/2025,1714,100714,PowerTech Max,electronics,Oniline,540.79,390.55,45.55,89,Out of Stock,Sharjah,
+715,10/16/2025,1715,100715,PowerTech Max,,Retail,93.27,790.38,8.12,732,Low Stock,Dubai,Cash
+716,01/12/2025,1716,100716,TechSavvy 5000,home goods,Retail,833.99,887.09,8.66,257,Low Stock,Abu Dhabi,Cash
+717,1/24/2025,1717,100717,MegaGizmo X,accessories,Retail,973.15,1139.28,12.62,97,Low Stock,Dubai,Cash
+718,05/07/2025,1718,100718,FutureTech 10000,electronics,Oniline,16.26,587.6,6.7,784,In Stock,Dubai,
+719,5/28/2025,1719,100719,SuperWidget 2000,home goods,Oniline,848.89,755.67,,283,Out of Stock,Abu Dhabi,Card
+720,10/26/2025,1720,100720,MegaGizmo X,home goods,Retail,283.42,328.17,20.02,935,Out of Stock,Dubai,Cash
+721,1/31/2025,1721,100721,FutureTech 10000,accessories,Oniline,251.81,1246.01,0.56,984,Out of Stock,Abu Dhabi,Online
+722,4/17/2025,1722,100722,MegaGizmo X,home goods,Retail,51.07,930.25,2.95,312,In Stock,Abu Dhabi,Card
+723,02/01/2026,1723,100723,InnoTech 3000,clothing,Retail,873.57,487.98,19.7,759,Out of Stock,Ajman,Cash
+724,9/29/2025,1724,100724,InnoTech 3000,home goods,Oniline,649.66,1480.18,7.87,860,Out of Stock,Sharjah,Online
+725,4/13/2025,1725,100725,SuperWidget 2000,electronics,Oniline,586.72,587.64,21.33,592,Out of Stock,Dubai,Card
+726,01/01/2026,1726,100726,SmartTech Elite,electronics,Oniline,964.23,845.1,17.44,387,Low Stock,Abu Dhabi,Online
+727,06/01/2025,1727,100727,EcoFriendly Tech,home goods,Oniline,474.22,70.96,44.16,881,Out of Stock,Dubai,Card
+728,11/13/2025,1728,100728,InnoTech 3000,appliances,Retail,724.03,550.88,42.78,669,In Stock,Sharjah,Online
+729,3/14/2026,1729,100729,PowerTech Max,accessories,Oniline,362.61,532.71,21.88,372,In Stock,Abu Dhabi,Card
+730,3/16/2025,1730,100730,PowerTech Max,electronics,Oniline,20.66,302.34,7.46,700,Out of Stock,Dubai,Cash
+731,9/14/2025,1731,100731,PowerTech Max,accessories,Oniline,980.19,1318.62,38.58,742,In Stock,Abu Dhabi,Cash
+732,01/07/2025,1732,100732,SuperWidget 2000,,Oniline,675.45,961.7,11.99,80,Out of Stock,Abu Dhabi,Cash
+733,8/28/2025,1733,100733,FutureTech 10000,electronics,Oniline,993.19,940.61,30.76,749,Out of Stock,Sharjah,Cash
+734,3/19/2026,1734,100734,EcoFriendly Tech,electronics,Retail,428.55,1120.51,17.45,939,,Abu Dhabi,Card
+735,6/30/2025,1735,100735,,accessories,Oniline,678.56,558.4,,342,Low Stock,Abu Dhabi,Card
+736,3/26/2026,1736,100736,UltimateGadget Pro,home goods,,574.7,344.76,,739,Low Stock,Dubai,Cash
+737,03/05/2026,1737,100737,EcoFriendly Tech,clothing,Retail,649.28,448.24,43.77,504,In Stock,Abu Dhabi,Cash
+738,3/23/2026,1738,100738,InnoTech 3000,home goods,Oniline,131.94,1417.32,47.43,495,,Abu Dhabi,Card
+739,03/09/2026,1739,100739,PowerTech Max,electronics,Oniline,200.47,547.7,,36,In Stock,Sharjah,Card
+740,1/14/2026,1740,100740,PowerTech Max,electronics,Retail,120.94,1481.55,,17,Low Stock,Sharjah,Online
+741,5/30/2025,1741,100741,UltimateGadget Pro,home goods,Retail,640.55,480.23,18.6,748,In Stock,Dubai,
+742,1/14/2026,1742,100742,SmartTech Elite,accessories,Oniline,931.26,74.3,16.63,289,Out of Stock,,Cash
+743,07/09/2025,1743,100743,UltimateGadget Pro,clothing,Retail,752.07,603.91,24.76,28,Out of Stock,,Cash
+744,12/27/2025,1744,100744,,accessories,Oniline,583.87,845.23,4.7,178,In Stock,Dubai,Card
+745,7/16/2025,1745,100745,UltimateGadget Pro,appliances,Oniline,132.65,746.13,28.92,787,In Stock,Dubai,Card
+746,4/26/2025,1746,100746,InnoTech 3000,clothing,Retail,415.89,1313.3,15.47,384,,Dubai,Online
+747,9/30/2025,1747,100747,InnoTech 3000,clothing,Oniline,480.95,821.44,42.32,333,Low Stock,Sharjah,Cash
+748,07/01/2025,1748,100748,SuperWidget 2000,electronics,Retail,291.87,458.18,23.14,151,Out of Stock,Ajman,Online
+749,8/18/2025,1749,100749,,accessories,Retail,979.19,1204.35,12.94,769,Out of Stock,Ajman,Card
+750,9/27/2025,1750,100750,PowerTech Max,,Oniline,952.79,128.43,46.56,805,In Stock,Abu Dhabi,Card
+751,08/04/2025,1751,100751,UltimateGadget Pro,electronics,Retail,508.98,461.19,17.94,432,In Stock,Sharjah,Cash
+752,01/12/2026,1752,100752,TechSavvy 5000,electronics,Oniline,563.87,349.99,,169,Out of Stock,Sharjah,Cash
+753,02/07/2025,1753,100753,InnoTech 3000,accessories,Oniline,506.62,120.64,0.88,734,Low Stock,Sharjah,Card
+754,4/29/2025,1754,100754,GigaGadget 9000,appliances,Oniline,73.97,975.97,31.43,811,Out of Stock,Abu Dhabi,
+755,01/04/2026,1755,100755,GigaGadget 9000,accessories,Oniline,96.8,1256.32,,808,,Dubai,Cash
+756,02/12/2026,1756,100756,PowerTech Max,home goods,Retail,779.48,1388.59,27.48,10,In Stock,Dubai,Online
+757,5/18/2025,1757,100757,TechSavvy 5000,accessories,Oniline,919.44,1030.27,22.47,214,Low Stock,Abu Dhabi,
+758,05/10/2025,1758,100758,EcoFriendly Tech,,Oniline,176.03,469.31,30.94,435,Low Stock,Ajman,Card
+759,3/16/2026,1759,100759,,home goods,Retail,922.62,938.76,44.37,805,Out of Stock,Abu Dhabi,Cash
+760,3/27/2026,1760,100760,,electronics,Oniline,353.54,809.46,2.57,923,Out of Stock,Ajman,Card
+761,3/26/2025,1761,100761,PowerTech Max,clothing,Oniline,192.82,1090.9,33.02,160,In Stock,Ajman,Cash
+762,8/21/2025,1762,100762,TechSavvy 5000,accessories,Oniline,231.6,932.77,,135,,Dubai,Online
+763,2/24/2025,1763,100763,TechSavvy 5000,electronics,Oniline,779.79,403.46,6.03,377,In Stock,Abu Dhabi,Cash
+764,1/18/2026,1764,100764,TechSavvy 5000,electronics,Retail,983.16,822.58,42.72,454,Low Stock,Abu Dhabi,Online
+765,01/10/2026,1765,100765,EcoFriendly Tech,clothing,Oniline,313.38,680.08,10,597,Out of Stock,,Online
+766,1/22/2026,1766,100766,TechSavvy 5000,appliances,Retail,682.96,742.36,,691,In Stock,Sharjah,Card
+767,10/10/2025,1767,100767,,,Oniline,751.78,1400.16,22.61,188,Low Stock,Dubai,Cash
+768,6/19/2025,1768,100768,MegaGizmo X,appliances,Oniline,863.64,590.53,12.13,685,In Stock,Abu Dhabi,Cash
+769,1/29/2025,1769,100769,GigaGadget 9000,electronics,Oniline,96.55,743.44,4.15,556,In Stock,Ajman,
+770,02/09/2026,1770,100770,EcoFriendly Tech,appliances,Oniline,238.04,408.89,19.99,70,Low Stock,Abu Dhabi,Online
+771,5/16/2025,1771,100771,PowerTech Max,electronics,Oniline,410.03,1291.65,43.72,250,In Stock,Ajman,Online
+772,12/23/2025,1772,100772,PowerTech Max,electronics,Retail,29.71,218.2,24.55,716,In Stock,Dubai,Card
+773,1/23/2026,1773,100773,PowerTech Max,home goods,Oniline,56.08,1115.34,19.84,73,Out of Stock,Sharjah,Online
+774,11/14/2025,1774,100774,TechSavvy 5000,electronics,Retail,468.49,479.87,13.4,687,Low Stock,Ajman,Online
+775,9/28/2025,1775,100775,FutureTech 10000,home goods,Retail,178.87,572.06,41.18,615,Low Stock,Abu Dhabi,Online
+776,04/10/2025,1776,100776,GigaGadget 9000,electronics,Oniline,285.69,1259.45,27.2,360,Out of Stock,Sharjah,Card
+777,7/17/2025,1777,100777,GigaGadget 9000,accessories,Retail,385.27,1299.3,,789,Low Stock,Sharjah,Card
+778,10/15/2025,1778,100778,SuperWidget 2000,clothing,Retail,52.35,828.68,,153,Out of Stock,Dubai,Cash
+779,03/06/2026,1779,100779,MegaGizmo X,electronics,Retail,972.8,561.25,27.87,279,In Stock,,Online
+780,8/24/2025,1780,100780,PowerTech Max,electronics,Oniline,866.65,459.03,18.56,963,Low Stock,Sharjah,Card
+781,3/19/2026,1781,100781,UltimateGadget Pro,accessories,Retail,208.84,1047.24,,14,In Stock,Sharjah,Card
+782,1/16/2025,1782,100782,SuperWidget 2000,home goods,Retail,202.25,381.17,0.89,176,In Stock,Dubai,Card
+783,07/04/2025,1783,100783,UltimateGadget Pro,accessories,Retail,728.77,1490.53,30.48,146,In Stock,Ajman,Card
+784,1/17/2025,1784,100784,EcoFriendly Tech,appliances,Retail,208.27,834.93,9.99,189,Out of Stock,Ajman,Card
+785,11/17/2025,1785,100785,SmartTech Elite,clothing,Retail,734.43,228.04,,704,In Stock,Dubai,Online
+786,3/31/2025,1786,100786,PowerTech Max,electronics,Oniline,428.23,573.25,42.08,691,Low Stock,,Cash
+787,5/17/2025,1787,100787,InnoTech 3000,electronics,Retail,353.83,1380.16,39.26,630,Out of Stock,Sharjah,Card
+788,04/07/2025,1788,100788,GigaGadget 9000,accessories,Retail,96.87,296.07,30.68,197,Out of Stock,Abu Dhabi,Cash
+789,2/18/2026,1789,100789,PowerTech Max,appliances,Oniline,951.9,1399.71,39.33,424,,Dubai,Card
+790,2/25/2025,1790,100790,PowerTech Max,electronics,Oniline,564.61,1317.89,37.28,47,In Stock,Abu Dhabi,Cash
+791,9/18/2025,1791,100791,InnoTech 3000,accessories,Oniline,342.33,706.74,45.28,113,In Stock,Abu Dhabi,
+792,10/01/2025,1792,100792,EcoFriendly Tech,appliances,Oniline,325.84,416.76,36.79,562,Low Stock,Sharjah,Online
+793,09/03/2025,1793,100793,UltimateGadget Pro,clothing,Oniline,471.15,40.82,,843,Out of Stock,Ajman,Online
+794,12/31/2025,1794,100794,SuperWidget 2000,clothing,Oniline,76.33,1271.15,33.77,610,Low Stock,Abu Dhabi,Online
+795,4/18/2025,1795,100795,PowerTech Max,appliances,Retail,361.09,353.96,0.16,780,Low Stock,Ajman,Online
+796,3/20/2026,1796,100796,SmartTech Elite,electronics,Retail,393.02,93.1,42.13,997,Low Stock,Dubai,Cash
+797,04/08/2025,1797,100797,MegaGizmo X,clothing,Retail,419.21,159.05,,521,In Stock,Abu Dhabi,Online
+798,4/20/2025,1798,100798,FutureTech 10000,clothing,Oniline,488.68,946.36,,72,In Stock,Abu Dhabi,Card
+799,03/12/2026,1799,100799,InnoTech 3000,clothing,Oniline,399.96,1320.97,7.16,440,In Stock,Dubai,Cash
+800,03/12/2026,1800,100800,InnoTech 3000,appliances,,447.5,1260.42,43.46,584,Out of Stock,Dubai,Online
+801,05/07/2025,1801,100801,FutureTech 10000,electronics,Retail,587.83,1305.23,0.13,676,Low Stock,Ajman,Cash
+802,02/05/2026,1802,100802,SmartTech Elite,clothing,Retail,740.63,1346.37,34.1,590,,Ajman,Card
+803,8/20/2025,1803,100803,SuperWidget 2000,electronics,Retail,244.39,667.04,,334,In Stock,Abu Dhabi,
+804,2/13/2025,1804,100804,FutureTech 10000,accessories,Retail,381.55,153.46,23.79,868,In Stock,Sharjah,Online
+805,3/14/2026,1805,100805,,accessories,Retail,355.44,641.3,9.15,139,In Stock,Abu Dhabi,Card
+806,10/23/2025,1806,100806,EcoFriendly Tech,home goods,Retail,463.23,624.83,,15,Out of Stock,Sharjah,Online
+807,11/24/2025,1807,100807,PowerTech Max,home goods,Retail,533.18,684.69,5.15,915,Out of Stock,Sharjah,Online
+808,12/27/2025,1808,100808,FutureTech 10000,electronics,Oniline,411.73,1058.09,49.44,611,Out of Stock,,Online
+809,04/03/2025,1809,100809,MegaGizmo X,electronics,Retail,153.06,837.23,,602,Low Stock,Dubai,Cash
+810,3/31/2025,1810,100810,SuperWidget 2000,clothing,Retail,944.33,336.25,5.66,404,Out of Stock,Ajman,Online
+811,03/08/2026,1811,100811,UltimateGadget Pro,accessories,Oniline,260.61,817.53,31.33,924,Out of Stock,Sharjah,Online
+812,04/08/2025,1812,100812,SmartTech Elite,accessories,Retail,481.36,854.95,47.54,557,Out of Stock,Ajman,
+813,2/28/2026,1813,100813,EcoFriendly Tech,electronics,Retail,301.5,593.34,32.91,474,Low Stock,Sharjah,Cash
+814,02/09/2025,1814,100814,UltimateGadget Pro,accessories,Oniline,403.02,595.16,24.21,27,Out of Stock,Abu Dhabi,Card
+815,10/05/2025,1815,100815,SuperWidget 2000,appliances,Retail,781.89,256.78,33.19,757,Low Stock,,Card
+816,01/06/2025,1816,100816,TechSavvy 5000,home goods,Retail,365.61,912.09,30.51,659,Low Stock,Sharjah,Card
+817,12/13/2025,1817,100817,SuperWidget 2000,home goods,Retail,946.58,581.48,23.89,621,In Stock,Abu Dhabi,
+818,05/09/2025,1818,100818,TechSavvy 5000,home goods,Retail,794.83,837.06,19.55,998,Out of Stock,Abu Dhabi,Online
+819,4/17/2025,1819,100819,SuperWidget 2000,electronics,Oniline,649.77,978.66,33.65,173,Out of Stock,Abu Dhabi,Card
+820,01/05/2026,1820,100820,SuperWidget 2000,home goods,Oniline,67.98,845.39,16.94,360,In Stock,Dubai,Online
+821,7/29/2025,1821,100821,MegaGizmo X,appliances,Retail,447.26,340.88,29.58,430,In Stock,,Online
+822,7/17/2025,1822,100822,InnoTech 3000,appliances,Retail,126.9,918.1,47.37,176,Low Stock,Sharjah,Online
+823,10/06/2025,1823,100823,FutureTech 10000,clothing,Retail,215.26,1176.68,42.44,309,In Stock,Sharjah,Card
+824,2/17/2025,1824,100824,MegaGizmo X,clothing,Retail,743.64,40.86,38.1,640,Out of Stock,Ajman,Online
+825,10/28/2025,1825,100825,PowerTech Max,accessories,Oniline,130.79,492.97,,284,In Stock,Ajman,Cash
+826,5/22/2025,1826,100826,SuperWidget 2000,home goods,Retail,709.95,959.14,35.86,827,Low Stock,Abu Dhabi,Cash
+827,03/12/2026,1827,100827,GigaGadget 9000,electronics,Oniline,787.82,454.1,8.18,269,Low Stock,Abu Dhabi,Online
+828,1/24/2025,1828,100828,FutureTech 10000,home goods,Retail,334.6,288.27,17.46,791,Out of Stock,Ajman,Online
+829,5/21/2025,1829,100829,,electronics,Retail,656.13,102.37,,538,Low Stock,Dubai,Card
+830,12/08/2025,1830,100830,FutureTech 10000,electronics,Retail,268.98,432.43,28.17,493,Low Stock,Ajman,Cash
+831,03/02/2026,1831,100831,MegaGizmo X,accessories,Oniline,56.5,29.36,40.92,491,In Stock,Dubai,Cash
+832,7/15/2025,1832,100832,MegaGizmo X,home goods,Retail,680.07,773.68,48.62,700,In Stock,Abu Dhabi,Online
+833,02/04/2026,1833,100833,InnoTech 3000,accessories,Oniline,883.16,1495.99,49.03,932,Low Stock,Abu Dhabi,Card
+834,07/11/2025,1834,100834,GigaGadget 9000,appliances,Oniline,721.77,94.12,28.78,522,In Stock,Ajman,Card
+835,5/29/2025,1835,100835,EcoFriendly Tech,accessories,Retail,970.27,1315.23,32.01,822,In Stock,Dubai,
+836,10/23/2025,1836,100836,PowerTech Max,home goods,Retail,141.83,1424.72,21.9,588,In Stock,Dubai,Cash
+837,01/05/2026,1837,100837,TechSavvy 5000,accessories,Oniline,205.62,537.63,,362,In Stock,Sharjah,Cash
+838,05/10/2025,1838,100838,SuperWidget 2000,clothing,Retail,339.46,21.32,41.2,940,Low Stock,Ajman,Cash
+839,09/02/2025,1839,100839,InnoTech 3000,home goods,Retail,909.38,1062.64,17.04,73,Low Stock,,
+840,2/23/2026,1840,100840,PowerTech Max,appliances,Retail,730.04,1065.18,12.79,601,Out of Stock,Dubai,Card
+841,1/28/2026,1841,100841,InnoTech 3000,home goods,Retail,225.48,566.99,22.16,822,Out of Stock,Dubai,Card
+842,1/29/2026,1842,100842,SuperWidget 2000,home goods,Oniline,655.53,1400.93,36.95,552,In Stock,Abu Dhabi,Cash
+843,01/10/2026,1843,100843,EcoFriendly Tech,appliances,Oniline,46.53,453.74,31.96,903,Out of Stock,Dubai,Online
+844,12/10/2025,1844,100844,EcoFriendly Tech,electronics,Retail,875.02,855.73,45.03,321,Out of Stock,Ajman,Cash
+845,4/21/2025,1845,100845,MegaGizmo X,electronics,Retail,845.97,1381.45,35.96,516,Out of Stock,Abu Dhabi,Online
+846,8/18/2025,1846,100846,SuperWidget 2000,home goods,Retail,484.94,1430.11,,385,Out of Stock,Dubai,Cash
+847,10/11/2025,1847,100847,PowerTech Max,electronics,Retail,646.86,1164.33,21,96,Low Stock,Sharjah,Online
+848,12/23/2025,1848,100848,,home goods,Retail,44.89,351.89,28.32,166,,Dubai,Cash
+849,6/14/2025,1849,100849,PowerTech Max,clothing,Retail,396.06,518.26,5.92,788,In Stock,Ajman,Cash
+850,3/31/2025,1850,100850,GigaGadget 9000,appliances,Retail,150.27,607.27,16.61,122,In Stock,,Card
+851,1/17/2025,1851,100851,SuperWidget 2000,home goods,Oniline,371.3,281.99,2.92,81,Low Stock,Ajman,Online
+852,11/13/2025,1852,100852,UltimateGadget Pro,accessories,Retail,387.39,792.58,,545,Out of Stock,Sharjah,Online
+853,7/17/2025,1853,100853,EcoFriendly Tech,electronics,Oniline,843.45,1093.7,14.16,314,Low Stock,Abu Dhabi,Card
+854,07/11/2025,1854,100854,,accessories,Retail,450.52,250.46,21.48,528,In Stock,Abu Dhabi,
+855,3/16/2026,1855,100855,SuperWidget 2000,accessories,Retail,799.18,994.78,41.92,964,Low Stock,Dubai,Online
+856,7/20/2025,1856,100856,GigaGadget 9000,home goods,Retail,747.85,524.35,29.98,787,In Stock,Ajman,Cash
+857,05/06/2025,1857,100857,TechSavvy 5000,electronics,Oniline,735.13,456.85,49.7,507,Low Stock,Abu Dhabi,Card
+858,1/29/2026,1858,100858,,accessories,Oniline,252.88,188.44,,972,Low Stock,Sharjah,Online
+859,3/24/2025,1859,100859,FutureTech 10000,home goods,Retail,192.09,107.84,37.59,352,,Dubai,Card
+860,10/28/2025,1860,100860,UltimateGadget Pro,electronics,Oniline,637.1,623.92,48.23,682,Out of Stock,Abu Dhabi,Cash
+861,07/05/2025,1861,100861,PowerTech Max,electronics,Retail,136.01,1419.39,30.04,601,Out of Stock,Sharjah,Cash
+862,10/22/2025,1862,100862,UltimateGadget Pro,clothing,Oniline,355.08,1225.64,32.53,423,In Stock,Sharjah,Card
+863,12/23/2025,1863,100863,TechSavvy 5000,appliances,Retail,373.71,196.98,10.05,647,Low Stock,Abu Dhabi,Card
+864,3/26/2025,1864,100864,UltimateGadget Pro,accessories,Retail,927.6,553.81,1.38,226,Out of Stock,Sharjah,Cash
+865,07/06/2025,1865,100865,GigaGadget 9000,electronics,Retail,464.1,596.14,38.54,280,Low Stock,Abu Dhabi,Cash
+866,12/20/2025,1866,100866,SuperWidget 2000,clothing,Retail,430.19,745.99,22.5,947,Out of Stock,Sharjah,Online
+867,03/05/2026,1867,100867,MegaGizmo X,appliances,Oniline,375.57,526.88,14.62,571,In Stock,Dubai,Online
+868,11/16/2025,1868,100868,,accessories,Retail,678.02,505.5,,415,In Stock,Ajman,Online
+869,6/16/2025,1869,100869,EcoFriendly Tech,appliances,Oniline,622.26,126.32,35.06,988,Low Stock,Abu Dhabi,Online
+870,12/15/2025,1870,100870,EcoFriendly Tech,appliances,Retail,624.12,730.98,4.87,494,Low Stock,Sharjah,Cash
+871,11/30/2025,1871,100871,,electronics,Retail,139.3,1254.14,40.29,734,Out of Stock,Dubai,Card
+872,7/25/2025,1872,100872,FutureTech 10000,,Retail,855.75,808.8,16.39,862,Low Stock,Sharjah,Online
+873,7/13/2025,1873,100873,SuperWidget 2000,accessories,Oniline,79.62,409.29,43.78,592,Low Stock,Dubai,Online
+874,12/13/2025,1874,100874,SmartTech Elite,clothing,Oniline,135.82,1382.98,27.72,199,In Stock,Abu Dhabi,Online
+875,1/19/2026,1875,100875,EcoFriendly Tech,home goods,Oniline,405.09,829.19,,340,Out of Stock,Dubai,Online
+876,05/05/2025,1876,100876,EcoFriendly Tech,accessories,Retail,933.54,1222.14,43.81,926,Low Stock,Abu Dhabi,Card
+877,4/19/2025,1877,100877,InnoTech 3000,accessories,Oniline,887.71,771.58,12.18,713,In Stock,Abu Dhabi,Cash
+878,01/11/2026,1878,100878,MegaGizmo X,home goods,Retail,591.69,646.13,7.79,627,Low Stock,,Cash
+879,8/28/2025,1879,100879,SmartTech Elite,clothing,Oniline,497.42,1455.59,34.23,588,Out of Stock,Dubai,Cash
+880,05/07/2025,1880,100880,GigaGadget 9000,appliances,Oniline,356.65,808.02,,194,In Stock,,Card
+881,06/08/2025,1881,100881,InnoTech 3000,accessories,Oniline,287.88,1224.54,21.59,839,Out of Stock,Ajman,Cash
+882,1/15/2025,1882,100882,,electronics,Retail,469.45,999.49,8.75,682,Out of Stock,Dubai,Online
+883,6/14/2025,1883,100883,FutureTech 10000,clothing,Retail,61.9,33.05,1.55,93,Low Stock,Sharjah,Cash
+884,2/28/2026,1884,100884,FutureTech 10000,accessories,Retail,318.62,355.8,45.45,258,Out of Stock,Ajman,Online
+885,6/20/2025,1885,100885,SuperWidget 2000,accessories,Oniline,924.83,845.21,13.14,564,Out of Stock,Sharjah,Cash
+886,12/15/2025,1886,100886,UltimateGadget Pro,home goods,Oniline,464.95,1195.9,23.32,318,Out of Stock,Ajman,
+887,08/02/2025,1887,100887,SuperWidget 2000,home goods,Oniline,381.35,498.93,12.82,789,In Stock,Sharjah,Online
+888,3/21/2026,1888,100888,FutureTech 10000,clothing,Oniline,139.34,475.87,27.34,636,In Stock,Dubai,Card
+889,01/10/2026,1889,100889,,clothing,Oniline,819.53,609.46,,904,Out of Stock,Dubai,Card
+890,3/13/2026,1890,100890,SuperWidget 2000,accessories,Retail,604.58,1326.96,24.83,724,In Stock,Sharjah,Online
+891,7/29/2025,1891,100891,UltimateGadget Pro,appliances,Oniline,65.95,901.28,38.12,495,Low Stock,Sharjah,Online
+892,2/28/2025,1892,100892,SmartTech Elite,clothing,Oniline,16.45,1346.63,44.5,954,In Stock,Abu Dhabi,Online
+893,10/08/2025,1893,100893,SmartTech Elite,home goods,Retail,130.14,259.85,22.93,238,In Stock,Ajman,Online
+894,3/19/2025,1894,100894,GigaGadget 9000,home goods,Oniline,536.1,690.96,24.86,231,Low Stock,Abu Dhabi,Online
+895,2/14/2026,1895,100895,GigaGadget 9000,home goods,Oniline,270.09,184,42.34,182,Out of Stock,,Card
+896,12/24/2025,1896,100896,MegaGizmo X,clothing,Oniline,52.03,323.23,12.89,352,In Stock,Ajman,Cash
+897,01/07/2026,1897,100897,SuperWidget 2000,clothing,Oniline,722.01,918.82,10.91,303,Out of Stock,Sharjah,Cash
+898,09/06/2025,1898,100898,UltimateGadget Pro,accessories,Oniline,348.74,1190.63,1.8,366,In Stock,Abu Dhabi,
+899,02/08/2025,1899,100899,MegaGizmo X,electronics,Oniline,159.03,931.55,44.97,481,Low Stock,Ajman,Card
+900,03/03/2025,1900,100900,MegaGizmo X,electronics,Retail,640.72,443.24,17.95,44,Low Stock,Dubai,Card
+901,04/10/2025,1901,100901,FutureTech 10000,home goods,Oniline,678.58,858.18,29.78,848,Low Stock,Dubai,Cash
+902,1/31/2025,1902,100902,TechSavvy 5000,electronics,Oniline,758.92,30.45,19.25,925,Out of Stock,Ajman,Online
+903,05/04/2025,1903,100903,PowerTech Max,electronics,Retail,815.75,456.23,,369,In Stock,Dubai,Card
+904,7/30/2025,1904,100904,EcoFriendly Tech,accessories,Oniline,834.1,496.39,,839,Out of Stock,Abu Dhabi,Online
+905,2/21/2026,1905,100905,MegaGizmo X,accessories,Retail,406.14,26.7,3.75,652,Out of Stock,Dubai,Online
+906,5/19/2025,1906,100906,SmartTech Elite,accessories,Oniline,584.99,1448.87,6.77,402,Out of Stock,Ajman,Online
+907,9/21/2025,1907,100907,SuperWidget 2000,electronics,Oniline,451.31,910.6,2.15,582,In Stock,Dubai,
+908,04/10/2025,1908,100908,SmartTech Elite,clothing,Retail,46.67,832.51,47.16,894,Low Stock,Ajman,Online
+909,04/11/2025,1909,100909,PowerTech Max,electronics,,678.07,746.64,16.53,489,In Stock,Abu Dhabi,Cash
+910,09/12/2025,1910,100910,,electronics,Oniline,409.46,1218.85,15.26,983,Out of Stock,Dubai,Cash
+911,7/31/2025,1911,100911,,accessories,Retail,178.58,940.23,31.77,497,Out of Stock,Dubai,Card
+912,11/24/2025,1912,100912,EcoFriendly Tech,home goods,Oniline,287.74,153.61,45.97,531,In Stock,Ajman,Card
+913,12/28/2025,1913,100913,EcoFriendly Tech,accessories,Retail,590.04,598.03,34.99,380,Out of Stock,Ajman,Card
+914,12/27/2025,1914,100914,FutureTech 10000,electronics,Oniline,522.84,1291.5,2.38,527,In Stock,Sharjah,Online
+915,3/18/2025,1915,100915,InnoTech 3000,electronics,Retail,577.54,682.56,29.47,970,Out of Stock,Ajman,Online
+916,07/02/2025,1916,100916,InnoTech 3000,accessories,Retail,583.1,880.29,37.31,544,In Stock,Sharjah,Card
+917,01/11/2025,1917,100917,MegaGizmo X,electronics,Oniline,210.44,435.51,25.09,476,In Stock,Sharjah,Cash
+918,08/11/2025,1918,100918,MegaGizmo X,electronics,Oniline,67.54,96.9,7.24,442,Out of Stock,Sharjah,Online
+919,01/12/2026,1919,100919,GigaGadget 9000,clothing,Retail,434.89,895.76,,28,In Stock,Abu Dhabi,Card
+920,10/16/2025,1920,100920,PowerTech Max,,Retail,111.27,934.74,,912,,Ajman,Card
+921,2/14/2025,1921,100921,GigaGadget 9000,clothing,Retail,282.43,1001.32,33.49,735,Out of Stock,Ajman,Card
+922,02/10/2025,1922,100922,SmartTech Elite,accessories,Retail,790.28,622.25,19.26,808,Low Stock,Dubai,Online
+923,05/06/2025,1923,100923,TechSavvy 5000,home goods,Oniline,988.42,1011.43,2.34,681,In Stock,Sharjah,Cash
+924,01/12/2025,1924,100924,SuperWidget 2000,home goods,Retail,426.33,491.97,36.84,207,Low Stock,Dubai,Cash
+925,3/14/2025,1925,100925,SmartTech Elite,,Oniline,623.31,1325.54,,219,Out of Stock,Ajman,Card
+926,6/27/2025,1926,100926,MegaGizmo X,,Oniline,456.57,331.21,36.15,560,Out of Stock,Dubai,Cash
+927,1/13/2026,1927,100927,FutureTech 10000,home goods,Oniline,962.95,193.51,33.42,405,Low Stock,Sharjah,Cash
+928,1/29/2025,1928,100928,FutureTech 10000,home goods,Retail,744.35,113.42,35.62,545,Out of Stock,Dubai,Online
+929,5/20/2025,1929,100929,UltimateGadget Pro,home goods,Retail,395.8,195.97,7.34,596,Out of Stock,Dubai,Card
+930,1/20/2026,1930,100930,SuperWidget 2000,accessories,,161.01,612.21,19.48,452,Out of Stock,Sharjah,Online
+931,12/09/2025,1931,100931,,clothing,Retail,513.19,635.76,12.7,148,In Stock,Ajman,Card
+932,2/16/2026,1932,100932,TechSavvy 5000,electronics,Retail,961.61,1100.31,2.2,608,Low Stock,Sharjah,Card
+933,2/22/2026,1933,100933,TechSavvy 5000,appliances,Oniline,86.33,779.35,28.1,125,,Ajman,Online
+934,5/21/2025,1934,100934,InnoTech 3000,electronics,Retail,825.77,1402.46,45.43,730,Low Stock,Dubai,Card
+935,02/02/2026,1935,100935,TechSavvy 5000,,Oniline,311.03,888.58,13.32,244,In Stock,Abu Dhabi,Cash
+936,10/18/2025,1936,100936,SuperWidget 2000,appliances,Oniline,666.26,1167.43,24.45,325,In Stock,Ajman,Card
+937,01/12/2025,1937,100937,GigaGadget 9000,accessories,Retail,914.63,116.08,28.53,640,Low Stock,Abu Dhabi,Card
+938,3/20/2026,1938,100938,UltimateGadget Pro,home goods,Retail,116.29,1458.03,18.9,89,Low Stock,Abu Dhabi,Online
+939,8/30/2025,1939,100939,MegaGizmo X,clothing,Oniline,547.91,429.62,11.43,177,Out of Stock,Ajman,Online
+940,12/22/2025,1940,100940,PowerTech Max,home goods,Retail,722.83,1457.5,44.7,54,Low Stock,Abu Dhabi,Cash
+941,12/02/2025,1941,100941,UltimateGadget Pro,appliances,Oniline,736.27,1260.48,,736,Out of Stock,Sharjah,Cash
+942,05/02/2025,1942,100942,EcoFriendly Tech,home goods,Retail,333.09,606.06,24.14,444,Low Stock,Sharjah,Card
+943,02/05/2025,1943,100943,InnoTech 3000,electronics,Oniline,768.6,869.16,7.45,786,,Abu Dhabi,Cash
+944,05/08/2025,1944,100944,PowerTech Max,appliances,Retail,949.48,572.32,28.7,31,In Stock,,
+945,3/24/2025,1945,100945,PowerTech Max,home goods,Oniline,669.79,1083.37,10.62,922,Low Stock,Ajman,Card
+946,03/03/2026,1946,100946,PowerTech Max,,Oniline,707.11,869.22,43.93,933,In Stock,Abu Dhabi,Cash
+947,10/28/2025,1947,100947,InnoTech 3000,electronics,Oniline,692.41,218.12,48.4,520,In Stock,,Card
+948,1/13/2025,1948,100948,UltimateGadget Pro,appliances,Retail,789.26,532.93,15.81,121,Low Stock,Ajman,Card
+949,01/09/2026,1949,100949,UltimateGadget Pro,electronics,Oniline,220.42,702.35,37.19,534,Low Stock,Sharjah,Card
+950,09/09/2025,1950,100950,TechSavvy 5000,home goods,Retail,877.85,1003.86,19.57,936,In Stock,Dubai,Cash
+951,12/15/2025,1951,100951,,appliances,Retail,563.27,1361.33,24.16,471,Out of Stock,Ajman,Card
+952,12/30/2025,1952,100952,EcoFriendly Tech,home goods,Oniline,47.24,1356.73,2.55,384,Out of Stock,,Card
+953,2/24/2025,1953,100953,EcoFriendly Tech,clothing,Retail,724.6,1316.69,19.19,686,Out of Stock,Abu Dhabi,Online
+954,10/31/2025,1954,100954,InnoTech 3000,home goods,Retail,778.94,1363.73,44.54,341,In Stock,Dubai,Cash
+955,2/21/2026,1955,100955,MegaGizmo X,clothing,Oniline,631.54,1041.96,10.11,947,Out of Stock,Abu Dhabi,Card
+956,12/20/2025,1956,100956,TechSavvy 5000,accessories,Retail,336.03,471.24,,652,Low Stock,Sharjah,Cash
+957,10/24/2025,1957,100957,SmartTech Elite,accessories,Retail,700.83,77.17,38.69,82,Out of Stock,Sharjah,Cash
+958,7/15/2025,1958,100958,MegaGizmo X,appliances,Retail,325.43,1322.76,44.09,574,Out of Stock,Dubai,Cash
+959,08/11/2025,1959,100959,EcoFriendly Tech,,Retail,875.23,1328.72,44.48,286,In Stock,Sharjah,Cash
+960,1/20/2026,1960,100960,,accessories,Oniline,259.95,354.83,27.64,86,Out of Stock,Sharjah,Cash
+961,04/07/2025,1961,100961,MegaGizmo X,electronics,Oniline,506.85,326.64,45.7,62,In Stock,Ajman,Cash
+962,11/16/2025,1962,100962,TechSavvy 5000,,Retail,806.49,1271.23,40.97,510,Low Stock,Ajman,Cash
+963,08/07/2025,1963,100963,FutureTech 10000,home goods,Retail,964.91,1016.4,27.51,632,Out of Stock,Ajman,Online
+964,11/26/2025,1964,100964,FutureTech 10000,accessories,Oniline,510.96,237.64,40.94,855,In Stock,Dubai,Online
+965,03/08/2026,1965,100965,TechSavvy 5000,home goods,Retail,818.51,391.5,22.75,488,,Sharjah,Cash
+966,11/18/2025,1966,100966,FutureTech 10000,accessories,Retail,604.45,440.25,48.61,696,Out of Stock,Sharjah,Online
+967,3/29/2025,1967,100967,SuperWidget 2000,appliances,Retail,375.42,1143.7,0.65,223,Low Stock,Ajman,Online
+968,1/13/2026,1968,100968,FutureTech 10000,home goods,Oniline,718.64,1124.08,47.41,827,Out of Stock,Ajman,Online
+969,3/27/2025,1969,100969,,home goods,Retail,442.01,293.25,27.3,375,Out of Stock,Ajman,Card
+970,3/13/2026,1970,100970,EcoFriendly Tech,appliances,Oniline,299.01,567.27,24.33,23,Low Stock,Dubai,Card
+971,11/03/2025,1971,100971,FutureTech 10000,appliances,,159.84,410.94,44.27,239,In Stock,Sharjah,Card
+972,6/29/2025,1972,100972,FutureTech 10000,accessories,Retail,462.97,1393.25,43.18,406,In Stock,Abu Dhabi,Cash
+973,3/29/2025,1973,100973,MegaGizmo X,accessories,Oniline,600.45,1432.17,13.14,619,Out of Stock,Abu Dhabi,
+974,07/08/2025,1974,100974,InnoTech 3000,clothing,,778.02,546.33,4.07,202,Out of Stock,Abu Dhabi,
+975,02/03/2025,1975,100975,,clothing,Retail,963.94,1117.06,8.4,967,Low Stock,Sharjah,Cash
+976,3/25/2025,1976,100976,UltimateGadget Pro,home goods,Retail,187.84,1385.93,16.73,137,Low Stock,Abu Dhabi,Online
+977,9/24/2025,1977,100977,InnoTech 3000,clothing,Oniline,843.84,1427.19,6.82,297,In Stock,Dubai,Online
+978,07/02/2025,1978,100978,InnoTech 3000,home goods,Retail,236.57,319.34,17.6,356,Low Stock,Dubai,
+979,7/21/2025,1979,100979,InnoTech 3000,home goods,Retail,493.9,767.2,48.94,351,Out of Stock,Ajman,Cash
+980,1/21/2025,1980,100980,UltimateGadget Pro,appliances,Retail,183.88,1380.14,43.16,407,,Ajman,Card
+981,08/10/2025,1981,100981,SmartTech Elite,,Oniline,35.28,782.42,23.47,118,Low Stock,Sharjah,
+982,8/14/2025,1982,100982,SuperWidget 2000,,Retail,293.33,1156.82,,800,,Sharjah,Cash
+983,7/29/2025,1983,100983,GigaGadget 9000,clothing,Retail,633.1,1359.37,2.58,758,,Dubai,Cash
+984,8/28/2025,1984,100984,UltimateGadget Pro,,Oniline,639.64,27.65,2.86,730,Low Stock,Ajman,Cash
+985,1/14/2026,1985,100985,,,Oniline,184.71,211.01,28,660,Low Stock,Abu Dhabi,Online
+986,12/08/2025,1986,100986,UltimateGadget Pro,clothing,Retail,361.78,569.52,34.78,438,Low Stock,Abu Dhabi,Cash
+987,2/20/2026,1987,100987,,home goods,Oniline,199.76,25.68,28.26,241,Out of Stock,Ajman,Card
+988,2/25/2025,1988,100988,EcoFriendly Tech,accessories,Oniline,446.45,206.79,38.67,658,In Stock,Sharjah,Online
+989,07/10/2025,1989,100989,UltimateGadget Pro,home goods,Oniline,88.96,728.85,44.43,605,Low Stock,Ajman,Cash
+990,07/05/2025,1990,100990,SmartTech Elite,clothing,Retail,582.8,699.53,43.3,38,Low Stock,Abu Dhabi,Card
+991,1/23/2025,1991,100991,,accessories,Retail,227.91,616.42,7.52,494,Out of Stock,Sharjah,Cash
+992,6/15/2025,1992,100992,SmartTech Elite,accessories,Retail,96.45,115.42,46.38,33,Low Stock,Dubai,Online
+993,10/16/2025,1993,100993,SuperWidget 2000,accessories,Oniline,826.02,89.17,15.48,618,Low Stock,Sharjah,Online
+994,10/04/2025,1994,100994,FutureTech 10000,electronics,Oniline,699.15,1172.29,,113,In Stock,Dubai,Online
+995,2/20/2026,1995,100995,SuperWidget 2000,home goods,Oniline,947.67,322.86,34.67,745,,Abu Dhabi,
+996,2/14/2026,1996,100996,,clothing,Retail,23.08,914.31,5.31,989,Low Stock,Dubai,Card
+997,8/24/2025,1997,100997,SmartTech Elite,,Retail,291.05,843.25,26.11,944,In Stock,Abu Dhabi,Online
+998,08/09/2025,1998,100998,SuperWidget 2000,clothing,Oniline,591.81,78.53,,68,In Stock,Dubai,Cash
+999,02/05/2025,1999,100999,GigaGadget 9000,appliances,Retail,477.87,770.38,17.75,958,In Stock,Ajman,Online
+1000,1/20/2025,2000,101000,PowerTech Max,accessories,Retail,704.64,1326.83,48.53,37,Low Stock,Abu Dhabi,Online
