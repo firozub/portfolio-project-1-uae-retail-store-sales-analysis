@@ -5,7 +5,7 @@ Project Overview
 
 Analyzing 1000 rows of synthetic retail transaction data with 18% missing values using Power BI and Power Query Editor to demonstrate professional data cleaning, business insight generation, and interactive dashboard design.
 
-Last Update
+Data Processing and Dashboard Creation Steps:
 
 STEP 1: DATA IMPORT & INSPECTION 
 
