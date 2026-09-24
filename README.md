@@ -11,3 +11,8 @@ STEP 1: DATA IMPORT & INSPECTION
 
 Raw CSV data was uploaded into Power BI. All columns and their data types were reviewed to establish a baseline understanding of the dataset structure. The inspection revealed 18% missing values across various fields along with several format inconsistencies that required attention in subsequent blocks.
 
+STEP 2: DATA CLEANING 
+
+Blank rows were removed from transaction_id and customer_id columns as these are essential for transaction tracking. Duplicate rows in the purchase_id column were eliminated to ensure data accuracy. Error rows throughout the entire dataset were identified and removed to maintain data integrity and overall quality.
+
+Missing values were handled strategically. Text fields including product category and region and sales channel and payment method were coded as "N/A" to preserve row count and enable proper segmentation analysis. Numerical fields were filled with 0 values. This decision was documented as follows: "Missing values in product category and region and payment method were coded as 'N/A' to preserve row count and enable segmentation analysis. ID columns with blanks were removed as they are essential for transaction tracking." The customer_id and purchase_id columns were removed entirely since they did not serve any analytical purpose. Transaction_id was retained for analysis purposes.
