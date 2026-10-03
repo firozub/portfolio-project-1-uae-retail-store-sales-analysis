@@ -38,3 +38,65 @@ The analytical approach for Page 1 Executive Summary was determined to be month-
 Five analytical charts were planned for Page 1 Executive Summary sequenced to build business insights. A line chart displays total revenue by month to showcase monthly sales inflows and identify seasonal patterns and revenue momentum. A pie chart displays total revenue by payment method to reveal which payment method is most viable and preferred by customers and contributes most to revenue. A dual-line chart compares purchase price and sales price by month to visualize profit margin strategy and pricing decisions over time. A combination chart with columns for total revenue and line for quantity sold by month reveals whether revenue growth comes from increased volume or pricing decisions. A horizontal bar chart displays revenue by sales channel to compare online versus retail performance and identify the most effective distribution channel.
 
 A Total Profit calculated column was created to enable profit analysis. The formula subtracted purchase price and discount cost from sale price multiplied by quantity sold to provide accurate profitability metrics. Info button descriptions were created for each page. Page 1 Executive Summary was assigned the title "Executive Performance Overview" with guidance on using filters and interpreting charts. Page 2 Regional Analytics was assigned the title "Regional Performance and Market Insights" with regional filtering guidance. Page 3 Data Quality and Cleanup was assigned the title "Data Quality and Processing Documentation" documenting the data cleaning process.
+
+STEP 5: KPI DEFINITION & CALCULATIONS 
+
+Four key performance indicators were defined for the Page 1 Executive Summary. These KPIs would be displayed as card visuals in the top row with associated growth percentages and visual indicators showing year-over-year performance trends.
+
+Total Revenue was established as the primary revenue metric. The DAX formula created was `Total_Revenue_KPI = SUM([Total_Revenue])`. This measure sums all revenue generated from product sales. A companion growth measure was created to track year-over-year change with the formula:
+
+Revenue_Growth =
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearRevenue - PreviousYearRevenue, PreviousYearRevenue, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+_perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+FORMAT(_perc, "0.0%")
+)
+
+A conditional formatting measure was created to color-code the growth percentage with the formula:
+
+CF_Revenue_Growth =
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearRevenue - PreviousYearRevenue, PreviousYearRevenue, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, "Green",
+_perc < 0, "Red",
+"Grey"
+)
+
+Total Profit was established as the second primary KPI measuring profitability after all costs. The DAX formula created was `Total_Profit_KPI = SUM([Total Profit])`. A growth measure was created with the formula:
+
+Profit_Growth =
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearProfit - PreviousYearProfit, PreviousYearProfit, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+_perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+FORMAT(_perc, "0.0%")
+)
+
+A conditional formatting measure for profit growth was created with the formula:
+
+CF_Profit_Growth =
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearProfit - PreviousYearProfit, PreviousYearProfit, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, "Green",
+_perc < 0, "Red",
+"Grey"
+)
+
+
