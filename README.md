@@ -127,3 +127,42 @@ _perc < 0, "Red",
 "Grey"
 )
 
+Profit Margin Growth was established as the fourth KPI measuring profitability efficiency and margin trend. This measure compares the margin percentage of the current year against the previous year to show whether profitability per sale is improving or declining. The growth measure was created with the formula:
+
+Profit_Margin_Growth =
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR CurrentYearMargin = DIVIDE(CurrentYearProfit, CurrentYearRevenue, 0)
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearMargin = DIVIDE(PreviousYearProfit, PreviousYearRevenue, 0)
+VAR _perc = DIVIDE(CurrentYearMargin - PreviousYearMargin, PreviousYearMargin, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+_perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+FORMAT(_perc, "0.0%")
+)
+
+A conditional formatting measure for profit margin growth was created with the formula:
+
+CF_Profit_Margin_Growth =
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR CurrentYearMargin = DIVIDE(CurrentYearProfit, CurrentYearRevenue, 0)
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearMargin = DIVIDE(PreviousYearProfit, PreviousYearRevenue, 0)
+VAR _perc = DIVIDE(CurrentYearMargin - PreviousYearMargin, PreviousYearMargin, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, "Green",
+_perc < 0, "Red",
+"Grey"
+)
+
+All four KPI measures were tested with sample data across different slicer selections to ensure formula accuracy and proper functioning across filtered datasets. Each growth measure displays directional arrows and color coding to provide immediate visual feedback on performance trends.
+
+Info button descriptions were created for Page 1 to guide users on dashboard purpose and usage. The color palette consisting of primary teal (#00838F) and secondary cyan (#00ACC1) and accent green (#4CAF50) was established for consistent visual theming across all KPI displays and chart elements.
