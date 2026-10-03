@@ -163,6 +163,4 @@ _perc < 0, "Red",
 "Grey"
 )
 
-All four KPI measures were tested with sample data across different slicer selections to ensure formula accuracy and proper functioning across filtered datasets. Each growth measure displays directional arrows and color coding to provide immediate visual feedback on performance trends.
-
-Info button descriptions were created for Page 1 to guide users on dashboard purpose and usage. The color palette consisting of primary teal (#00838F) and secondary cyan (#00ACC1) and accent green (#4CAF50) was established for consistent visual theming across all KPI displays and chart elements.
+All four KPI measures were tested with sample data across different slicer selections to ensure formula accuracy and proper functioning across filtered datasets. Each growth measure displays directional arrows and color coding to provide immediate visual feedback on performance trends. Info button descriptions were created for Page 1 to guide users on dashboard purpose and usage. 
