@@ -99,4 +99,31 @@ _perc < 0, "Red",
 "Grey"
 )
 
+Quantity Sold was established as the third KPI measuring sales volume and market movement. The DAX formula created was `Volume_of_Goods_Sold = SUM([quantity_sold])`. A growth measure was created to track volume changes year-over-year with the formula:
+
+Volume_Growth =
+VAR CurrentYearVolume = SUM([quantity_sold])
+VAR PreviousYearVolume = CALCULATE(SUM([quantity_sold]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearVolume - PreviousYearVolume, PreviousYearVolume, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+_perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+FORMAT(_perc, "0.0%")
+)
+
+A conditional formatting measure for volume growth was created with the formula:
+
+CF_Volume_Growth =
+VAR CurrentYearVolume = SUM([quantity_sold])
+VAR PreviousYearVolume = CALCULATE(SUM([quantity_sold]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearVolume - PreviousYearVolume, PreviousYearVolume, 0)
+RETURN
+SWITCH(
+TRUE(),
+_perc > 0, "Green",
+_perc < 0, "Red",
+"Grey"
+)
 
