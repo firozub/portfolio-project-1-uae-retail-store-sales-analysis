@@ -47,3 +47,201 @@ The map visualization for Page 2 required a custom map implementation to accurat
 Three additional analytical charts were designed and implemented for Page 2 to provide comprehensive regional insights beyond the map visualization. A stacked column chart displaying total revenue by emirates and region segmented by payment method was created using axis [Emirates / Region], legend [payment_method], and values SUM([Total_Revenue]) to reveal payment method preferences across regions. A horizontal bar chart displaying cost of discount allowed by emirates and region was created using axis [Emirates / Region] and value [Cost_of_Discount_Allowed] to show discount allocation strategies by geographic location. A multi-line chart displaying regional trends over time with quarterly revenue was created using axis [Transaction_Date] grouped by quarter, legend [region], and values SUM([Total_Revenue]) to reveal quarterly performance trends and regional momentum across the year with each region represented as a separate line.
 
 
+STEP 5: KPI DEFINITION & CALCULATIONS 
+
+Four key performance indicators were defined for the Page 1 Executive Summary. These KPIs would be displayed as card visuals in the top row with associated growth percentages and visual indicators showing year-over-year performance trends.
+
+Total Revenue was established as the primary revenue metric. The DAX formula created was Total_Revenue_KPI = SUM([Total_Revenue]). This measure sums all revenue generated from product sales. A companion growth measure was created to track year-over-year change with the formula:
+
+```dax
+Revenue_Growth = 
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearRevenue - PreviousYearRevenue, PreviousYearRevenue, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+        _perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+        FORMAT(_perc, "0.0%")
+    )
+```
+
+A conditional formatting measure was created to color-code the growth percentage with the formula:
+
+```dax
+CF_Revenue_Growth = 
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearRevenue - PreviousYearRevenue, PreviousYearRevenue, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, "Green",
+        _perc < 0, "Red",
+        "Grey"
+    )
+```
+
+Total Profit was established as the second primary KPI measuring profitability after all costs. The DAX formula created was Total_Profit_KPI = SUM([Total Profit]). A growth measure was created with the formula:
+
+```dax
+Profit_Growth = 
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearProfit - PreviousYearProfit, PreviousYearProfit, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+        _perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+        FORMAT(_perc, "0.0%")
+    )
+```
+
+A conditional formatting measure for profit growth was created with the formula:
+
+```dax
+CF_Profit_Growth = 
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearProfit - PreviousYearProfit, PreviousYearProfit, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, "Green",
+        _perc < 0, "Red",
+        "Grey"
+    )
+```
+
+Quantity Sold was established as the third KPI measuring sales volume and market movement. The DAX formula created was Volume_of_Goods_Sold = SUM([quantity_sold]). A growth measure was created to track volume changes year-over-year with the formula:
+
+```dax
+Volume_Growth = 
+VAR CurrentYearVolume = SUM([quantity_sold])
+VAR PreviousYearVolume = CALCULATE(SUM([quantity_sold]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearVolume - PreviousYearVolume, PreviousYearVolume, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+        _perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+        FORMAT(_perc, "0.0%")
+    )
+```
+
+A conditional formatting measure for volume growth was created with the formula:
+
+```dax
+CF_Volume_Growth = 
+VAR CurrentYearVolume = SUM([quantity_sold])
+VAR PreviousYearVolume = CALCULATE(SUM([quantity_sold]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR _perc = DIVIDE(CurrentYearVolume - PreviousYearVolume, PreviousYearVolume, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, "Green",
+        _perc < 0, "Red",
+        "Grey"
+    )
+```
+
+Profit Margin Growth was established as the fourth KPI measuring profitability efficiency and margin trend. This measure compares the margin percentage of the current year against the previous year to show whether profitability per sale is improving or declining. The growth measure was created with the formula:
+
+```dax
+Profit_Margin_Growth = 
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR CurrentYearMargin = DIVIDE(CurrentYearProfit, CurrentYearRevenue, 0)
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearMargin = DIVIDE(PreviousYearProfit, PreviousYearRevenue, 0)
+VAR _perc = DIVIDE(CurrentYearMargin - PreviousYearMargin, PreviousYearMargin, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, UNICHAR(11165) & " " & FORMAT(_perc, "0.0%"),
+        _perc < 0, UNICHAR(11167) & " " & FORMAT(_perc*-1, "0.0%"),
+        FORMAT(_perc, "0.0%")
+    )
+```
+
+A conditional formatting measure for profit margin growth was created with the formula:
+
+```dax
+CF_Profit_Margin_Growth = 
+VAR CurrentYearProfit = SUM([Total Profit])
+VAR CurrentYearRevenue = SUM([Total_Revenue])
+VAR CurrentYearMargin = DIVIDE(CurrentYearProfit, CurrentYearRevenue, 0)
+VAR PreviousYearProfit = CALCULATE(SUM([Total Profit]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearRevenue = CALCULATE(SUM([Total_Revenue]), YEAR('Electronics Retail Transaction Dataset'[Transaction_Date]) = YEAR(TODAY()) - 1)
+VAR PreviousYearMargin = DIVIDE(PreviousYearProfit, PreviousYearRevenue, 0)
+VAR _perc = DIVIDE(CurrentYearMargin - PreviousYearMargin, PreviousYearMargin, 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        _perc > 0, "Green",
+        _perc < 0, "Red",
+        "Grey"
+    )
+```
+
+All four KPI measures were tested with sample data across different slicer selections to ensure formula accuracy and proper functioning across filtered datasets. Each growth measure displays directional arrows and color coding to provide immediate visual feedback on performance trends.
+
+Two key performance indicator measures were created for Page 2 Regional Analytics to identify the most profitable region and its profitability characteristics. The Most_Profitable_Region and its Share of Total Profit measure was created using a complex DAX formula that identifies which region contributes the highest profit and displays that region's name with its share of total profit by calculating the maximum profit region and its percentage contribution to overall profit with the formula:
+
+```dax
+Most Profitable Region and its Share of Total Profit = 
+VAR TotalProfit = SUM([Total Profit])
+VAR MaxProfitByRegion = MAXX(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])))
+VAR RegionWithMaxProfit = MINX(FILTER(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])) = MaxProfitByRegion), 'Electronics Retail Transaction Dataset'[Emirates / Region])
+VAR MaxProfitPercent = DIVIDE(MaxProfitByRegion, TotalProfit, 0)
+RETURN
+    RegionWithMaxProfit & " " & FORMAT(MaxProfitPercent, "0.0%")
+```
+
+The Region_Profit_Margin_Pct measure was created to calculate the profit margin percentage of the most profitable region by dividing regional profit by regional revenue and multiplying by 100 and formatting with percentage display showing the profitability efficiency of the leading region with the formula:
+
+```dax
+Region Profit Margin % = 
+VAR MaxProfitByRegion = MAXX(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])))
+VAR RegionWithMaxProfit = MINX(FILTER(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])) = MaxProfitByRegion), 'Electronics Retail Transaction Dataset'[Emirates / Region])
+VAR RegionProfit = CALCULATE(SUM([Total Profit]), 'Electronics Retail Transaction Dataset'[Emirates / Region] = RegionWithMaxProfit)
+VAR RegionRevenue = CALCULATE(SUM([Total_Revenue]), 'Electronics Retail Transaction Dataset'[Emirates / Region] = RegionWithMaxProfit)
+VAR Margin = DIVIDE(RegionProfit, RegionRevenue, 0) * 100
+RETURN
+    FORMAT(Margin, "0.00") & "%"
+```
+
+A conditional formatting measure CF_Most_Profit_Region was created to color-code the regional profitability metrics using a three-tier color system with the formula:
+
+```dax
+CF_Most_Profit_Region = 
+VAR MaxProfitByRegion = MAXX(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])))
+VAR RegionWithMaxProfit = MINX(FILTER(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])) = MaxProfitByRegion), 'Electronics Retail Transaction Dataset'[Emirates / Region])
+VAR RegionProfit = CALCULATE(SUM([Total Profit]), 'Electronics Retail Transaction Dataset'[Emirates / Region] = RegionWithMaxProfit)
+VAR RegionRevenue = CALCULATE(SUM([Total_Revenue]), 'Electronics Retail Transaction Dataset'[Emirates / Region] = RegionWithMaxProfit)
+VAR Margin = DIVIDE(RegionProfit, RegionRevenue, 0) * 100
+RETURN
+    IF(Margin > 35, "Green", IF(Margin > 25, "Bright_Cyan", "Red"))
+```
+
+A conditional formatting measure CF_Region_Profit_Margin was created to color-code the profit margin percentage with the formula:
+
+```dax
+CF_Region_Profit_Margin = 
+VAR MaxProfitByRegion = MAXX(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])))
+VAR RegionWithMaxProfit = MINX(FILTER(ALLSELECTED('Electronics Retail Transaction Dataset'[Emirates / Region]), CALCULATE(SUM([Total Profit])) = MaxProfitByRegion), 'Electronics Retail Transaction Dataset'[Emirates / Region])
+VAR RegionProfit = CALCULATE(SUM([Total Profit]), 'Electronics Retail Transaction Dataset'[Emirates / Region] = RegionWithMaxProfit)
+VAR RegionRevenue = CALCULATE(SUM([Total_Revenue]), 'Electronics Retail Transaction Dataset'[Emirates / Region] = RegionWithMaxProfit)
+VAR Margin = DIVIDE(RegionProfit, RegionRevenue, 0) * 100
+RETURN
+    IF(Margin > 35, "Green", IF(Margin > 25, "Bright_Cyan", "Red"))
+```
+
+Regional KPI measures display three-tier color coding where regions with profit margin exceeding 35 percent display green (#4CAF50) indicating excellent profitability, regions with profit margin between 25 and 35 percent display bright cyan (#00ACC1) indicating good profitability, and regions with profit margin below 25 percent display red (#FF5252) indicating profitability needing improvement. This color coding provides immediate visual feedback on regional profitability performance and enables executives to quickly identify regions requiring attention or presenting growth opportunities.
+
+All KPI measures across both Page 1 and Page 2 were tested with sample data across different slicer selections to ensure formula accuracy and proper functioning across filtered datasets. Each measure displays appropriate visual indicators and color coding to provide immediate feedback on performance trends.
+
+---
