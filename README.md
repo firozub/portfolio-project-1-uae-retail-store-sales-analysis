@@ -272,4 +272,4 @@ Final testing was conducted across all charts visuals and slicers by applying va
 
 **Status: Draft Version**
 
-This project is currently in draft stage pending final review and feedback from subject matter expert. The dashboard structure, visualizations, and documentation are complete, but final refinements will be made based on professional review before official release.****
+This project is currently in draft stage pending final review and feedback from subject matter expert. The dashboard structure, visualizations, and documentation are complete, but final refinements will be made based on professional review before official release.
