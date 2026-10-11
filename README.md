@@ -1,9 +1,13 @@
 # UAE-Retail-Store-Sales-Analysis
 UAE Retail Store Sales Analysis using Excel &amp; Power BI. Features data cleaning, KPI analysis, and interactive dashboards for profitability insights.
 
-Project Overview
+**Project Overview**
 
 Analyzing 1000 rows of synthetic retail transaction data with 18% missing values using Power BI and Power Query Editor to demonstrate professional data cleaning, business insight generation, and interactive dashboard design.
+
+**Acknowledgments**
+
+Claude Haiku 4.5 helped me organize this project. I used it to structure the data cleaning workflow, build out the analytics pipeline documentation into clear step-by-step sections, create technical narratives for each phase, and refine the writing so it's easy to understand what I did.
 
 Data Processing and Dashboard Creation Steps:
 
@@ -264,3 +268,8 @@ A cohesive color scheme was applied consistently across all visuals on both page
 Info buttons and page descriptions were finalized on both pages. Page 1 Executive Summary was labeled with the title "Executive Performance Overview" and descriptive guidance text explaining the purpose and how to use filters. Page 2 Regional Analytics was labeled with the title "Regional Performance and Market Insights" and descriptive guidance text explaining regional analysis capabilities and filtering options. Company logo and branding elements were added to both page headers ensuring visual consistency and professional presentation throughout the dashboard.
 
 Final testing was conducted across all charts visuals and slicers by applying various filter combinations to ensure proper data updates and cross-filtering functionality. KPI cards were verified to display correctly with growth percentages and color-coded indicators updating appropriately based on slicer selections. Map colors were tested to ensure proper color intensity representation across all emirates and regions. All tooltips were added to charts providing detailed information on hover. Dashboard responsiveness was verified to ensure proper display across different screen resolutions. The complete two-page dashboard was finalized with professional formatting and design polish ready for publication and presentation to stakeholders.
+
+
+**Status: Draft Version**
+
+This project is currently in draft stage pending final review and feedback from subject matter expert. The dashboard structure, visualizations, and documentation are complete, but final refinements will be made based on professional review before official release.****
